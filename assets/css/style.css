@@ -13,7 +13,8 @@ body {
 .navbar {
   margin-bottom: 0;
   border: 0;
-  width: 100%;}
+  width: 100%;
+}
 
 .navbar-light .navbar-brand {
   color: #fff;
@@ -133,8 +134,22 @@ body {
   font-size: 18px;
 }
 
+.about-div {
+  text-align: center;
+  padding: 0px 40px;
+  margin-bottom: 10px;
+}
 
+.about-div h5{
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #2888e7;
+}
 
+.about-div p{
+  font-size: 15px;
+  color: #040e64;
+}
 
 
 
