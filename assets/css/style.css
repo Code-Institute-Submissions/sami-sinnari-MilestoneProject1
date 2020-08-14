@@ -23,7 +23,7 @@ body {
   letter-spacing: 1px;
 }
 
-.navbar-light .navbar-nav {
+.navbar-light .navbar-nav{
   color: #fff;
 }
 
@@ -70,7 +70,8 @@ body {
   display: flex;
   align-items: center;
   position: static;
-  background-size: 100% 99%;
+  background-size: 100% 100%;
+  overflow: hidden;
 }
 
 .banner-button{
@@ -89,7 +90,7 @@ body {
 }
 
 .banner a:hover{
-  background-color: hsla(210, 80%, 53%, 0.937);
+  background-color: rgba(39, 135, 231, 0.937);
   color: #fff
 }
 
@@ -120,23 +121,37 @@ body {
 /* ----------------- About section ----------------- */
 
 .about{
-  margin: 75px 0;
+  background: url("../images/design.jpg.jpg") no-repeat fixed;
+  background-size: cover;
+  color: #2787e7ef;
+  height: 20%;
+  padding: 25px 0px;
 }
 
 .title{
   text-align: center;
+  font-size: 40px;
   margin-bottom: 30px;
+  border-radius: 50%;
 }
 
 .sub-title{
   text-align: center;
-  margin-bottom: 30px;
+  /*margin-bottom: 10px;*/
   font-size: 18px;
+}
+
+.about-section{
+  padding: 20px 0px;
+}
+
+.about-section img{
+  padding-bottom: 5px;
 }
 
 .about-div {
   text-align: center;
-  padding: 0px 40px;
+  padding: 20px;
   margin-bottom: 10px;
 }
 
@@ -148,7 +163,17 @@ body {
 
 .about-div p{
   font-size: 15px;
-  color: #040e64;
+}
+
+.about-div:hover {
+  background: rgba(39, 135, 231, 0.937);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0px 20px 20px 2px rgba(18, 134, 243,0.5);
+}
+
+.about-div:hover h5{
+  color: #fff;
 }
 
 
@@ -159,6 +184,7 @@ body {
 
 footer {
   margin-top: 100px;
+  position: absolute;
 }
 
 .social-links i:hover {
