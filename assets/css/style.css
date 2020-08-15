@@ -10,12 +10,13 @@ body {
 
 /* ----------------- Navbar section ----------------- */
 
+/*
 .navbar {
   margin-bottom: 0;
   border: 0;
   width: 100%;
 }
-
+*/
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 40px;
@@ -71,7 +72,7 @@ body {
   align-items: center;
   position: static;
   background-size: 100% 100%;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .banner .block-divider{
@@ -124,19 +125,20 @@ body {
 
 /* ----------------- About section ----------------- */
 
-.about{
-  background: url("../images/design.jpg.jpg") no-repeat fixed;
+.about-img{
+  background: url("../images/passionnewnew.jpg") no-repeat fixed;
   background-size: cover;
-  color: #2787e7ef;
-  height: 20%;
-  padding: 25px 0px;
+  color: #000305ef;
+  padding: 150px;
+}
+
+.container{
 }
 
 .title{
   text-align: center;
   font-size: 40px;
-  margin-bottom: 30px;
-  border-radius: 50%;
+  padding: 30px;
 }
 
 .sub-title{
@@ -183,6 +185,66 @@ body {
   color: #fff;
 }
 
+
+
+/* ----------------- Quotes ----------------- */
+
+.quotes{
+  margin: 80px 0px;
+}
+
+.carousel-item img{
+  width: 100%;
+  border-radius:;
+}
+
+.carousel-item {
+  text-align: center;
+  height: 430px;
+}
+
+.carousel-caption{
+  z-index: -1;
+  box-shadow: 0px 0px 15px 0px rgb(18, 134, 243,0.5);
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+
+.carousel-caption h5{
+  margin-top: 55px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.carousel-caption small{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: block;
+  color: #000000;
+}
+
+.carousel-caption p{
+  text-align: center;
+  padding: 0 50px;
+  font-size: 15px;
+  color: #000305;
+}
+
+.carousel-indicators li{
+  background-color: #2888e7;
+}
+
+@media only screen and (max-width: 800px){
+  .carousel-item {
+    height: 520px;
+  }
+  .carousel-caption{
+    margin: 0px 10px 50px 10px;
+    left: 0px;
+    right: 0px;
+  }
+}
 
 
 
