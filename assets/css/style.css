@@ -11,13 +11,12 @@ body {
 
 /* ----------------- Navbar section ----------------- */
 
-/*
 .navbar {
   margin-bottom: 0;
   border: 0;
+  position: absolute;
   width: 100%;
 }
-*/
 
 .navbar-light .navbar-brand {
   color: #fff;
