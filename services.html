@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
       integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-<body class="bg-img bg-home-img"> 
-  <!----- Navbar section ----->
+<body> 
+  <!----- Nav bar ----->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-services">
     <div class="container">
@@ -25,27 +26,71 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link nav-link-services" href="index.html">home</a>
+            <a class="nav-link" href="index.html">home<span class="sr-only">(current)</span></a></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-services" href="index.html#about-section">about</a>
+            <a class="nav-link" href="#about-section">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-services" href="services.html">services</a>
+            <a class="nav-link" href="services.html">services</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link nav-link-services" href="sayhello.html">say hello</a>
+            <a class="nav-link" data-toggle="modal" data-target="#saysomething" href="#">say something</a >
           </li>
        </ul>
      </div>
    </div>
   </nav>
 </header>
-  <!----- End Navbar section ----->
-<!----- Team section ----->
+  <!----- End Nav bar ----->
+
+  <!----- Modal Contact us ----->
+
+  <div class="modal fade" id="saysomething" tabindex="-1" aria-labelledby="saysomethingLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a name="#saysomething"></a>
+           <div class="center-form">
+            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" 
+             placeholder="Project description" required></textarea></div>
+         <div class="modal-body">
+           <h2> <strong>You have the idea? Great!</strong></h2>
+          <h5 class="modal-heading"> <em> just drop a line and say hello. </em></h5>
+
+           <div class="contact-label">
+            <label><i class="fas fa-file-signature"></i></label>
+            <input type="text" name="" value="" placeholder="your full name">
+          </div>
+
+            <br>
+          <div class="contact-label">
+            <label><i class="fas fa-at"></i></label>
+            <input type="text" name="" value="" placeholder="your email address">
+          </div>
+          
+          <br>
+          <div class="contact-label">
+            <label><i class="fas fa-mobile-alt"></i></label>
+            <input type="text" name="" value="" placeholder="your phone number">
+          </div>
+          <br>
+          <div class="contact-label">
+            <label>Message:</label>
+            <textarea></textarea>
+            <img src="./assets/images/email (2).png" alt="email">
+            <a class="button-send" href="#">send</i></a>
+            <br>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">X</button>
+          </div>
+          <br>
+        </div>
+       </div>
+    </div>
+  </div>
 
 
-<!----- End Team section ----->
+  <!----- End Modal Contact us ----->
 
   <!----- Services section ----->
   <div class="card-deck">

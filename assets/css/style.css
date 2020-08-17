@@ -369,14 +369,40 @@ body {
 
 .button-send{
   display: block;
+  text-decoration: none !important;
   background: #d82e18;
   padding: 14px 0;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
 }
+
+.button-send:hover{
+  background: #2888e7;
+  color: #fff;
+  transition: .5s ease-in;
+  transform: scale(1.05);
+}
+
+.btn-secondary{
+  background: #d82e18;
+  color: #fff;
+  border: 1px solid #d82e18;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-secondary:hover{
+background: #2888e7;
+border: #2888e7;
+transition: .5s ease-in;
+transform: scale(1.2);
+}
+
+
 
 
 
