@@ -17,7 +17,6 @@ body {
   position: absolute;
   width: 100%;
 }
-
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 40px;
@@ -58,16 +57,23 @@ body {
 }
 
 
+/* ----------------- Navbar Services section ----------------- */
+.navbar-services{
+  color: #fff;
+  background: #358fe9;
+}
+
 
 /* ----------------- Banner section ----------------- */
 
 .banner {
   height: 100vh;
-  background: url("../images/background.jpg") no-repeat bottom right fixed;
+  background: url("../images/background.jpg") no-repeat bottom center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   background-position: 1px 1px;
   display: flex;
   align-items: center;
@@ -90,7 +96,6 @@ body {
   color: rgb(216, 46, 24);
   border: 1px solid #fff;
   border-radius: 10px;
-  /*text-align: center;*/
   margin-top: 25px;
   font-weight: bold;
   font-size: 15px;
@@ -142,6 +147,14 @@ body {
   padding: 30px;
 }
 
+.title strong{
+  color: #2888e7;
+}
+
+.fa-hand-point-down {
+  font-size: 30px;
+}
+
 .sub-title{
   text-align: center;
   /*margin-bottom: 10px;*/
@@ -172,9 +185,11 @@ body {
 
 .about-div p{
   font-size: 15px;
+  color: #fff;
 }
 
 .about-div:hover {
+  transform: scale(1.15);
   background: hsla(210, 80%, 53%, 0.937);
   border-radius: 50px;
   color: #fff;
@@ -284,6 +299,35 @@ body {
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
 
+
+/* ----------------- Services section ----------------- */
+
+.services-img {
+  height: 100vh;
+  background: url("../images/team_meeting.jpg.jpg") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 1px 1px;
+  display: flex;
+  position: static;
+  background-size:cover;
+  overflow: hidden; 
+}
+
+.services-title{
+  color: #fff;
+  justify-content: center;
+}
+
+
+/* ----------------- Card Services Section ----------------- */
+.card-deck{
+  text-align: center;
+  justify-content: center;
+  padding: 15rem ;
+}
 
 /* ----------------- Footer ----------------- */
 
