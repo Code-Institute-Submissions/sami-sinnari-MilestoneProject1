@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 /* ----------------- Navbar section ----------------- */
@@ -17,6 +18,7 @@ body {
   width: 100%;
 }
 */
+
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 40px;
@@ -126,13 +128,13 @@ body {
 /* ----------------- About section ----------------- */
 
 .about-img{
-  background: url("../images/passionnewnew.jpg") no-repeat fixed;
+  background: url("../images/passionnewnew.jpg") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   color: #000305ef;
   padding: 150px;
-}
-
-.container{
 }
 
 .title{
@@ -174,7 +176,7 @@ body {
 }
 
 .about-div:hover {
-  background: rgba(39, 135, 231, 0.937);
+  background: hsla(210, 80%, 53%, 0.937);
   border-radius: 50px;
   color: #fff;
   box-shadow: 0px 20px 20px 2px rgba(18, 134, 243,0.5);
@@ -186,67 +188,102 @@ body {
 }
 
 
+/* ----------------- Quotes section ----------------- */
 
-/* ----------------- Quotes ----------------- */
-
-.quotes{
-  margin: 80px 0px;
+/* Code of quote section below is creddited to : https://codepen.io/webdevtutorials/pen/PoZGGqO */
+.quotes h2 {
+	color: #010911;
+	text-align: center;
+  font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
 }
-
-.carousel-item img{
-  width: 100%;
-  border-radius:;
+.quotes h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #d82e18;;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+  opacity: .8;
 }
-
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
 .carousel-item {
+	color: #999;
+	font-size: 14px;
   text-align: center;
-  height: 430px;
+	overflow: hidden;
+  min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview strong {
+	text-transform: uppercase;
+	color: #d82e18;;
+}
+.carousel .carousel-control {
+	width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+	background: none;
+}
+.carousel-control i {
+  font-size: 35px;
+	line-height: 50px;
+  position: absolute;
+  display: inline-block;
+	color: rgba(54, 81, 202, 0.8);
+  text-shadow: 0px 0px 5px #2888e7, 0px 0px 5px #2888e7;
 }
 
-.carousel-caption{
-  z-index: -1;
-  box-shadow: 0px 0px 15px 0px rgb(18, 134, 243,0.5);
-  border-radius: 5px;
-  margin-bottom: 50px;
+.carousel .carousel-indicators {
+	bottom: -40px;
 }
-
-
-.carousel-caption h5{
-  margin-top: 55px;
-  font-weight: bold;
-  color: #000000;
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
 }
-
-.carousel-caption small{
-  margin-top: 10px;
-  margin-bottom: 50px;
-  display: block;
-  color: #000000;
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
-
-.carousel-caption p{
-  text-align: center;
-  padding: 0 50px;
-  font-size: 15px;
-  color: #000305;
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
-
-.carousel-indicators li{
-  background-color: #2888e7;
-}
-
-@media only screen and (max-width: 800px){
-  .carousel-item {
-    height: 520px;
-  }
-  .carousel-caption{
-    margin: 0px 10px 50px 10px;
-    left: 0px;
-    right: 0px;
-  }
-}
-
-
 
 
 /* ----------------- Footer ----------------- */
@@ -256,12 +293,6 @@ footer {
   position: absolute;
 }
 
-.social-links i:hover {
-  background-color: rgba(70, 67, 235, 0.938);
-  color: #fcfcfc;
-  transition: 0.30s ease-in-out;
-}
-
 .social-links {
   margin: 20px;
   padding: 10px;
@@ -269,11 +300,17 @@ footer {
 }
 
 .social-links i {
-  color: #2888e7;
+  color: rgb(39, 135, 231);
   background-color: #fcfcfc;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0;
-  border-radius: 50%;
+  border-radius: 60%;
   padding: 10px;
   margin: 0 10px;
+}
+
+.social-links i:hover {
+  background-color: rgba(45, 142, 238, 0.938);
+  color: #fcfcfc;
+  transition: 0.60s ease-in-out;
 }
