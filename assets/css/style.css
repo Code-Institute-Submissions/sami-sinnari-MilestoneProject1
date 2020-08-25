@@ -57,13 +57,85 @@ body {
   color: #fff;
 }
 
-
-/* ----------------- Navbar Services section ----------------- */
-.navbar-services{
-  color: #fff;
-  background: #358fe9;
+/* ----------------- say something (contact form) section ----------------- */
+.modal-body h2{
+  text-align-last: center; 
+  color: #d82e18;
 }
 
+.modal-header{
+  text-align: center;
+  color: #2888e7;
+}
+
+.modal-heading{
+  text-align: center;
+  padding-bottom: 50px;
+  color: #2888e7;
+}
+
+.contact-label{
+  text-align: center;
+  border: 1px solid #2888e7;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.contact-label label{
+  display: block;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-label input,.contact-label textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.contact-label i{
+  font-size: 30px;
+  color: #2888e7;
+}
+
+.button-send{
+  display: block;
+  text-decoration: none !important;
+  background: #d82e18;
+  padding: 14px 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.button-send:hover{
+  background: #2888e7;
+  color: #fff;
+  transition: .5s ease-in;
+  transform: scale(1.05);
+}
+
+.btn-secondary{
+  background: #d82e18;
+  color: #fff;
+  border: 1px solid #d82e18;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-secondary:hover{
+background: #2888e7;
+border: #2888e7;
+transition: .5s ease-in;
+transform: scale(1.2);
+}
 
 /* ----------------- Banner section ----------------- */
 
@@ -147,11 +219,14 @@ body {
 
 .sub-title{
   /*margin-bottom: 10px;*/
+  font-family: 'Chilanka';
   font-size: 18px;
+  font-weight: 700;
 }
 
 .about-section{
   padding: 20px 20px;
+
 }
 
 .about-section img{
@@ -190,117 +265,23 @@ body {
   transition: .9s;
 }
 
-
-
-/* ----------------- Quotes section ----------------- */
-
-
 /* ----------------- Services section ----------------- */
 
-.services-img {
+.services-banner {
   height: 100vh;
-  background: url("../images/team_meeting.jpg.jpg") no-repeat bottom right fixed;
+  background: url("../images/design.jpg") no-repeat top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 1px 1px;
   display: flex;
   position: static;
-  background-size:cover;
-  overflow: hidden; 
 }
 
 .services-title{
   color: #fff;
   justify-content: center;
 }
-
-
-/* ----------------- say something (contact form) section ----------------- */
-.modal-body h2{
-  text-align-last: center; 
-  color: #d82e18;
-}
-
-.modal-header{
-  text-align: center;
-  color: #2888e7;
-}
-
-.modal-heading{
-  text-align: center;
-  padding-bottom: 50px;
-  color: #2888e7;
-}
-
-.contact-label{
-  text-align: center;
-  border: 1px solid #2888e7;
-  padding: 12px 18px;
-  border-radius: 8px;
-}
-
-.contact-label label{
-  display: block;
-  text-align: left;
-  color: #333;
-  font-size: 14px;
-}
-
-.contact-label input,.contact-label textarea{
-  width: 100%;
-  border: none;
-  background: none;
-  outline: none;
-  font-size: 18px;
-  margin-top: 6px;
-}
-
-.contact-label i{
-  font-size: 30px;
-  color: #2888e7;
-}
-
-.button-send{
-  display: block;
-  text-decoration: none !important;
-  background: #d82e18;
-  padding: 14px 0;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-  margin-top: 8px;
-  width: 100%;
-}
-
-.button-send:hover{
-  background: #2888e7;
-  color: #fff;
-  transition: .5s ease-in;
-  transform: scale(1.05);
-}
-
-.btn-secondary{
-  background: #d82e18;
-  color: #fff;
-  border: 1px solid #d82e18;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-}
-
-.btn-secondary:hover{
-background: #2888e7;
-border: #2888e7;
-transition: .5s ease-in;
-transform: scale(1.2);
-}
-
-
-
-
-
 
 /* ----------------- Card Services Section ----------------- */
 .card-deck{
