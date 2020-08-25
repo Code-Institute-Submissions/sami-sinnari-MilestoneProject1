@@ -1,22 +1,23 @@
-
-* {
-  margin: 0px;
-  padding: 0px;
+html{
+  height: 100%;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+
 }
 
 /* ----------------- Navbar section ----------------- */
 
 .navbar {
   margin-bottom: 0;
-  border: 0;
   position: absolute;
-  width: 100%;
 }
+
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 40px;
@@ -49,7 +50,7 @@ body {
 .navbar-toggler {
   padding: 1px 5px;
   font-size: 18px;
-  line-height: 0.3;
+  line-height: 0.3px;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -104,7 +105,7 @@ body {
 
 .banner a:hover{
   background-color: rgba(39, 135, 231, 0.937);
-  box-shadow: 0vh 0vh 3vh 3vh rgba(255, 255, 255, 0.986);
+  box-shadow: 0 0 3vh 3vh rgba(255, 255, 255, 0.986);
   color: #fff
 }
 
@@ -130,7 +131,7 @@ body {
 
 
 /* ----------------- About section ----------------- */
-
+/*
 .about-img{
   background: url("../images/passion.jpg") no-repeat bottom right fixed;
   -webkit-background-size: cover;
@@ -140,7 +141,7 @@ body {
   color: #000305ef;
   padding: 150px;
 }
-
+*/
 .title{
   text-align: center;
   font-size: 40px;
@@ -183,6 +184,10 @@ body {
   color: #2888e7;
 }
 
+.about-div:hover h5{
+  color: #fff;
+}
+
 .about-div p{
   font-size: 15px;
   color: #fff;
@@ -193,18 +198,18 @@ body {
   background: hsla(210, 80%, 53%, 0.937);
   border-radius: 50px;
   color: #fff;
-  box-shadow: 0px 20px 20px 2px rgba(18, 134, 243,0.5);
+  box-shadow: 0 20px 20px 2px rgba(18, 134, 243,0.5);
   transition: .9s;
 }
 
-.about-div:hover h5{
-  color: #fff;
-}
 
 
 /* ----------------- Quotes section ----------------- */
 
+
 /* Code of quote section below is creddited to : https://codepen.io/webdevtutorials/pen/PoZGGqO */
+
+/*
 .quotes h2 {
 	color: #010911;
 	text-align: center;
@@ -277,7 +282,7 @@ body {
   position: absolute;
   display: inline-block;
 	color: rgba(54, 81, 202, 0.8);
-  text-shadow: 0px 0px 5px #2888e7, 0px 0px 5px #2888e7;
+  text-shadow: 0 0 5px #2888e7, 0 0 5px #2888e7;
 }
 
 .carousel .carousel-indicators {
@@ -299,6 +304,7 @@ body {
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
 
+*/
 
 /* ----------------- Services section ----------------- */
 
@@ -416,7 +422,7 @@ transform: scale(1.2);
 
 /* ----------------- Footer ----------------- */
 
-footer {
+.footer {
   margin-top: 100px;
   position: absolute;
 }
