@@ -131,20 +131,12 @@ body {
 
 
 /* ----------------- About section ----------------- */
-/*
-.about-img{
-  background: url("../images/passion.jpg") no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #000305ef;
-  padding: 150px;
+
+.title-section {
+  text-align: center;
 }
-*/
 
 .title{
-  text-align: center;
   font-size: 40px;
   padding: 30px;
 }
@@ -154,7 +146,6 @@ body {
 }
 
 .sub-title{
-  text-align: center;
   /*margin-bottom: 10px;*/
   font-size: 18px;
 }
