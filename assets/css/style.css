@@ -218,7 +218,6 @@ transform: scale(1.2);
 }
 
 .sub-title{
-  /*margin-bottom: 10px;*/
   font-family: 'Chilanka';
   font-size: 18px;
   font-weight: 700;
@@ -226,7 +225,6 @@ transform: scale(1.2);
 
 .about-section{
   padding: 20px 20px;
-
 }
 
 .about-section img{
@@ -268,9 +266,79 @@ transform: scale(1.2);
 /* ----------------- Testimonials section ----------------- */
 /* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
 
+.testimonials{
+  font-family:'Chilanka';
+  font-weight: 700;
+  padding: 40px 0;
+  background: #f8f8f4;
+  color: #2888e7;
+  text-align: center;
+}
 
+.test-title{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
 
+.test-border{
+  width: 160px;
+  height: 5px;
+  background: #2888e7;
+  margin: 26px auto;
+}
 
+.test-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.test-col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial i{
+  color: #e6e943;
+}
+.test-name{
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.stars{
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+  .test-col{
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .test-col{
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 /* ----------------- Services section ----------------- */
 
 .services-banner {
@@ -298,23 +366,16 @@ transform: scale(1.2);
 
 /* ----------------- Footer ----------------- */
 
-.footer {
-  margin-top: 100px;
-  position: absolute;
-}
-
 .social-links {
-  margin: 20px;
-  padding: 10px;
+  margin: 10px;
   align-self: center;
 }
 
 .social-links i {
   color: rgb(39, 135, 231);
   background-color: #fcfcfc;
-  font-size: 2.5rem;
-  letter-spacing: 0;
-  border-radius: 60%;
+  font-size: 2.3rem;
+  border-radius: 65%;
   padding: 10px;
   margin: 0 10px;
 }
