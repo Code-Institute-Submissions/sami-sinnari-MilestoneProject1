@@ -351,7 +351,7 @@ transform: scale(1.2);
 }
 
 .services-heading h1{
-  color: #2888e7;
+  color: #393a3b;
   font-size: 3rem;
   font-weight: 400;
   letter-spacing: 1px;
@@ -359,11 +359,13 @@ transform: scale(1.2);
 }
 
 .services-heading p{
-  color: rgb(28, 58, 158);
+  color: #6f7072;
   font-size: 1rem;
   margin: 5px;
   text-align: center;
 }
+
+
 
 /* ----------------- Card Services Section ----------------- */
 
