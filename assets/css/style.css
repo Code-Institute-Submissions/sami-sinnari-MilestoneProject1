@@ -338,10 +338,10 @@ transform: scale(1.2);
 /* ----------------- Services section ----------------- */
 .services{
   font-family: 'Chilanka', sans-serif;
-  width: 100%;
+  padding-top: 5rem;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
@@ -415,12 +415,38 @@ transform: scale(1.2);
   background-color: #2888e7;
   border-radius: 0 0 10px 10px;
   display: none;
+  animation: bar 0.9s;
 }
 
 .services-box:hover .services-bar{
   display: block;
 }
 
+@keyframes bar{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .services-container{
+    flex-wrap: wrap;
+  }
+  .services{
+    height: auto;
+  }
+  .services-heading {
+    margin: 15px;
+  }
+  .services-box{
+    flex-grow: 1;
+  }
+}
+
+}
 /* ----------------- Card Services Section ----------------- */
 
 /* ----------------- Footer ----------------- */
@@ -443,4 +469,16 @@ transform: scale(1.2);
   background-color: rgba(45, 142, 238, 0.938);
   color: #fcfcfc;
   transition: 0.60s ease-in-out;
+}
+
+@media screen and (max-width:600px) {
+  .social-links i{
+    font-size: 2rem;
+    border-radius: 65%;
+    padding: 10px;
+    margin: 0;
+  }
+  .list-inline{
+    display: flex;
+  }
 }
