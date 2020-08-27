@@ -20,7 +20,7 @@ body {
 
 .navbar-light .navbar-brand {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -57,6 +57,20 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width:1050px){
+
+  .navbar-toggler{
+    font-size: 15px;
+  }
+  .nav-link{
+    text-align: right;
+    padding-top: 1rem;
+  }
+  .navbar-brand{
+    font-size: 10px;
+  }
+}
+
 /* ----------------- say something (contact form) section ----------------- */
 .modal-body h2{
   text-align-last: center; 
@@ -70,7 +84,7 @@ body {
 
 .modal-heading{
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 2em;
   color: #2888e7;
 }
 
@@ -196,7 +210,19 @@ transform: scale(1.2);
   color: #fff;
 }
 
-
+@media screen and (max-width:1050px){
+  .navbar-brand{
+    font-size: 20px;
+  }
+  .banner{
+    background: url(../images/background\ mobile.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+}
 
 /* ----------------- About section ----------------- */
 
@@ -329,13 +355,15 @@ transform: scale(1.2);
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:640px) {
   .test-col{
     flex: 100%;
     max-width: 100%;
   }
 }
 /* ----------------- Services section ----------------- */
+
+/* Code below was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
 .services{
   font-family: 'Chilanka', sans-serif;
   padding-top: 5rem;
