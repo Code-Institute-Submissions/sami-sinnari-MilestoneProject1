@@ -34,15 +34,14 @@ body {
 }
 
 .navbar-nav {
-  text-align: center;
+  text-align: right;
   letter-spacing: 1px;
 }
 
 .nav-link {
   font-weight: bold;
-  padding: .2rem 1rem;
+  padding: .1rem 1rem;
 }
-
 
 .navbar-toggler {
   padding: 1px 5px;
@@ -61,18 +60,28 @@ body {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 1px;
-  text-decoration: none !important;
+}
+
+.navbar-brand-services:hover{
+  color: #2888e7;
+  text-decoration: none;
 }
 
 .nav-link-s{
   font-weight: bold;
-  padding: .2rem 0.5rem;
-  text-decoration: none !important;
+  padding-right: 0;
+  padding-left: 0;
+  padding: .5rem 0.5rem;
+  letter-spacing: 1px;
+  display: block;
   color: #000000;
 }
 
-.nav-link-s:focus,.nav-link-s:hover,.navbar-brand-services:hover{
+.nav-link-s:hover{
   color: #2888e7;
+  text-decoration: none;
+  /*padding: .2rem 1rem;
+  transition: 1s;*/
 }
 
 /* ----------------- say something (contact form) section ----------------- */
@@ -122,7 +131,6 @@ body {
 
 .button-send{
   display: block;
-  text-decoration: none !important;
   background: #d82e18;
   padding: 1em 0;
   border-radius: 20px;
@@ -485,7 +493,6 @@ transform: scale(1.2);
     font-size: 15px;
   }
   .nav-link{
-    text-align: right;
     padding-top: 1rem;
   }
   .navbar-link{
