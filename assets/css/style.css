@@ -554,7 +554,7 @@ transform: scale(1.2);
   }
 }
 
-@media screen and (max-width:325px) {
+@media screen and (max-width:400px) {
 
   .modal-body h2{
     font-size: 1.5em;
