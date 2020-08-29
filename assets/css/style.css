@@ -508,7 +508,7 @@ transform: scale(1.2);
   }
 
   .banner{
-    background: url(../images/89316.jpg) no-repeat bottom center fixed;
+    background: url(../images/Banner-max900px.jpg) no-repeat bottom center fixed;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
@@ -562,7 +562,7 @@ transform: scale(1.2);
 @media screen and (max-width:640px) {
 
   .banner{
-    background: url(../images/89316.jpg) no-repeat bottom center fixed;
+    background: url(../images/Banner-max900px.jpg) no-repeat bottom center fixed;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
@@ -582,7 +582,7 @@ transform: scale(1.2);
     font-size: 1.5em;
   }
   .banner{
-    background: url(../images/89316.jpg) no-repeat bottom center fixed;
+    background: url(../images/Banner-max900px.jpg) no-repeat bottom center fixed;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
