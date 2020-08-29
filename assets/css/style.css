@@ -161,19 +161,34 @@ transform: scale(1.2);
 /* ----------------- Banner section ----------------- */
 
 .banner {
-  height: 100vh;
   background: url("../images/background.jpg") no-repeat bottom center fixed;
-  background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: 1px 1px;
   display: flex;
   align-items: center;
   position: static;
   background-size: 100% 100%;
-  overflow: hidden; 
+  height: 100vh; 
+}
+
+.my-jumbotron {
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 4em;
+}
+
+.my-jumbotron-header {
+  color: white;
+  font-family: 'Raleway' sans-serif;
+  font-size: 2em; 
+  font-weight: bold;
+}
+
+.lead {
+  margin: 10px 0;
+  color: #fff;
 }
 
 .banner .block-divider{
@@ -199,25 +214,6 @@ transform: scale(1.2);
   background-color: rgba(39, 135, 231, 0.937);
   box-shadow: 0 0 3vh 3vh rgba(255, 255, 255, 0.986);
   color: #fff
-}
-
-
-.my-jumbotron {
-  background-color: transparent;
-  color: #fff;
-  margin-bottom: 4em;
-}
-
-.my-jumbotron-header {
-  color: white;
-  font-family: 'Raleway' sans-serif;
-  font-size: 2em; 
-  font-weight: bold;
-}
-
-.lead {
-  margin: 10px 0;
-  color: #fff;
 }
 
 /* ----------------- About section ----------------- */
@@ -464,26 +460,6 @@ transform: scale(1.2);
 
 /* ----------------- Media Queries ----------------- */
 
-@media screen and (max-width:1050px) {
-  .services-container{
-    flex-wrap: wrap;
-  }
-  .services{
-    height: auto;
-  }
-  .services-heading {
-    margin: 15px;
-  }
-  .services-box{
-    margin: 15px;
-    flex-grow: 1;
-  }
-  .services-box p{
-    font-size: 1.3rem;
-  } 
-}
-
-
 @media screen and (max-width:992px){
 
   .navbar-toggler{
@@ -508,7 +484,7 @@ transform: scale(1.2);
   }
 
   .banner{
-    background: url(../images/Banner-max900px.jpg) no-repeat bottom center fixed;
+    background: url(../images/Banner-max900px.jpg) no-repeat center;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
@@ -526,6 +502,7 @@ transform: scale(1.2);
   .lead{
     font-weight: 500;
   }
+  /* Use of pseudo elements was taught by Kevin Powell : https://www.youtube.com/watch?v=zGiirUiWslI */
   .my-jumbotron-header::after{
     content: "paint your future";
     color: #e96958;
@@ -590,7 +567,24 @@ transform: scale(1.2);
     color: #fcfcfc;
     transition: 0.60s ease-in-out;
   }
+  .services-container{
+    flex-wrap: wrap;
+  }
+  .services{
+    height: auto;
+  }
+  .services-heading {
+    margin: 15px;
+  }
+  .services-box{
+    margin: 15px;
+    flex-grow: 1;
+  }
+  .services-box p{
+    font-size: 1.3rem;
+  } 
 }
+
 
 
 @media screen and (max-width:640px) {
