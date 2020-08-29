@@ -558,7 +558,8 @@ transform: scale(1.2);
   .testimonials{
     background: #e9baba25;;
   }
-  .testimonials h1{
+  .testimonials h1
+  {
     color: #d82e18;
   }
   .testimonials p{
@@ -589,9 +590,6 @@ transform: scale(1.2);
     color: #fcfcfc;
     transition: 0.60s ease-in-out;
   }
-  /*.list-inline{
-    display: flex;
-  }*/
 }
 
 
@@ -600,10 +598,6 @@ transform: scale(1.2);
     flex: 100%;
     max-width: 100%;
   }
-}
-
-@media screen and (max-width:400px) {
-
   .modal-body h2{
     font-size: 1.5em;
   }
