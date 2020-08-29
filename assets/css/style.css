@@ -186,7 +186,7 @@ transform: scale(1.2);
   display: inline-block;
   background: #fff;
   text-decoration: none;
-  color: rgb(216, 46, 24);
+  color: #d82e18;
   border: 1px solid #fff;
   border-radius: 20px;
   margin-top: 25px;
@@ -439,7 +439,6 @@ transform: scale(1.2);
     width: 100px;
   }
 }
-/* ----------------- Card Services Section ----------------- */
 
 /* ----------------- Footer ----------------- */
 
@@ -497,8 +496,19 @@ transform: scale(1.2);
     font-size: 2em;
     padding-top: 5px;
   }
+  .navbar-light .navbar-brand {
+    color: #615f5f;
+    font-size: 30px;
+  }
+  .navbar-light .navbar-brand:hover{
+    color: #d82e18;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: #d82e18;
+  }
+
   .banner{
-    background: url(../images/background\ mobile.jpg) no-repeat bottom center fixed;
+    background: url(../images/89316.jpg) no-repeat bottom center fixed;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
@@ -508,6 +518,18 @@ transform: scale(1.2);
   padding-top: 150px;
   justify-content: center;
   text-align: center;
+  }
+  .hide-sm{
+    display: none;
+  }
+  .my-jumbotron-header::after{
+    content: "paint your future";
+  }
+  .my-jumbotron-header,.lead{
+    color: #615f5f;
+  }
+  .lead{
+    font-weight: 500;
   }
   .test-col{
     flex: 100%;
@@ -540,7 +562,7 @@ transform: scale(1.2);
 @media screen and (max-width:640px) {
 
   .banner{
-    background: url(../images/background\ mobile.jpg) no-repeat bottom center fixed;
+    background: url(../images/89316.jpg) no-repeat bottom center fixed;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
@@ -560,7 +582,7 @@ transform: scale(1.2);
     font-size: 1.5em;
   }
   .banner{
-    background: url(../images/background\ mobile.jpg) no-repeat bottom center fixed;
+    background: url(../images/89316.jpg) no-repeat bottom center fixed;
     background-size: cover;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
@@ -568,20 +590,7 @@ transform: scale(1.2);
   -o-background-size: cover;
   padding-top: 17em;
   }
-  .banner-button{
-    padding: 0.5em 0.5em;
-    display: inline-block;
-    background: #fff;
-    text-decoration: none;
-    color: rgb(216, 46, 24);
-    border: 1px solid #fff;
-    border-radius: 20px;
-    margin-top: 25px;
-    font-weight: bold;
-    font-size: 1em;
-  }
   .services-box{
     padding-top: 5em;
   }
 }
-
