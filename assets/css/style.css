@@ -161,7 +161,8 @@ transform: scale(1.2);
 /* ----------------- Banner section ----------------- */
 
 .banner {
-  background: url("../images/background.jpg") no-repeat bottom center fixed;
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
