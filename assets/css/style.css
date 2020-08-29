@@ -288,7 +288,7 @@ transform: scale(1.2);
   font-family:'Chilanka', sans-serif;
   font-weight: 700;
   padding: 40px 0;
-  background: #f8f8f4;
+  background: #699ab625;
   color: #2888e7;
   text-align: center;
 }
@@ -519,22 +519,52 @@ transform: scale(1.2);
   justify-content: center;
   text-align: center;
   }
+
   .hide-sm{
     display: none;
-  }
-  .my-jumbotron-header::after{
-    content: "paint your future";
-  }
-  .my-jumbotron-header,.lead{
-    color: #615f5f;
   }
   .lead{
     font-weight: 500;
   }
+  .my-jumbotron-header::after{
+    content: "paint your future";
+    color: #e96958;
+  }
+  .my-jumbotron-header,
+  .lead{
+    color: #615f5f;
+  }
+  .title strong{
+    color: #d82e18;
+  }
+
+  .about-div h5{
+    color: #d82e18;
+  }
+  /*about-div hover effect does not work on touch as banner button as well, but I'm planing to implement touch effects in the future. It works with @media(hover) effects*/
+  .about-div:hover {
+    transform: scale(1.1);
+    background: hsla(7, 80%, 47%, 0.937);
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 20px 20px 2px rgba(243, 108, 18, 0.5);
+    transition: .9s;
+  }
+
   .test-col{
     flex: 100%;
     max-width: 80%;
   }
+  .testimonials{
+    background: #e9baba25;;
+  }
+  .testimonials h1{
+    color: #d82e18;
+  }
+  .testimonials p{
+    color: #615f5f;
+  }
+
   .services-container{
     flex-wrap: wrap;
   }
@@ -548,14 +578,20 @@ transform: scale(1.2);
     flex-grow: 1;
   }
   .social-links i{
+    color: #d82e18;
     font-size: 2rem;
     border-radius: 65%;
     padding: 10px;
     margin: 0;
   }
-  .list-inline{
-    display: flex;
+  .social-links i:hover {
+    background-color: rgba(216, 46, 24, 0.938);
+    color: #fcfcfc;
+    transition: 0.60s ease-in-out;
   }
+  /*.list-inline{
+    display: flex;
+  }*/
 }
 
 
