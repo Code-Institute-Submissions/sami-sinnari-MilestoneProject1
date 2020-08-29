@@ -273,7 +273,7 @@ transform: scale(1.2);
 }
 
 .about-div:hover {
-  transform: scale(1.15);
+  transform: scale(1.09);
   background: hsla(210, 80%, 53%, 0.937);
   border-radius: 50px;
   color: #fff;
@@ -594,6 +594,14 @@ transform: scale(1.2);
 
 
 @media screen and (max-width:640px) {
+  .about-div:hover {
+    transform: scale(1.05);
+    background: #d82e18ef;
+    border-radius: 60px;
+    color: #fff;
+    box-shadow: 0 20px 20px 2px rgba(216, 46, 24, 0.5);
+    transition: .8s;
+  }
   .test-col{
     flex: 100%;
     max-width: 100%;
