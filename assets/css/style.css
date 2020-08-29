@@ -560,16 +560,6 @@ transform: scale(1.2);
 
 
 @media screen and (max-width:640px) {
-
-  .banner{
-    background: url(../images/Banner-max900px.jpg) no-repeat bottom center fixed;
-    background-size: cover;
-  -webkit-background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  }
-
   .test-col{
     flex: 100%;
     max-width: 100%;
@@ -582,13 +572,7 @@ transform: scale(1.2);
     font-size: 1.5em;
   }
   .banner{
-    background: url(../images/Banner-max900px.jpg) no-repeat bottom center fixed;
-    background-size: cover;
-  -webkit-background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  padding-top: 17em;
+   padding-top: 17em;
   }
   .services-box{
     padding-top: 5em;
