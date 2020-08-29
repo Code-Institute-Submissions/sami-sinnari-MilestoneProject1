@@ -482,6 +482,12 @@ transform: scale(1.2);
   .navbar-light .navbar-nav .nav-link:hover{
     color: #d82e18;
   }
+  .navbar-brand-services,.nav-link-s{
+    color: #615f5f;
+  }
+  .navbar-brand-services:hover,.nav-link-s:hover{
+    color: #d82e18;
+  }
 
   .banner{
     background: url(../images/Banner-max900px.jpg) no-repeat center;
@@ -543,18 +549,43 @@ transform: scale(1.2);
     color: #615f5f;
   }
 
-  .services-container{
-    flex-wrap: wrap;
-  }
+
+
+
+
   .services{
     height: auto;
   }
-  .services-heading {
+  .services-heading h1{
+    color: #d82e18;
+    font-family: 'Chilanka';
+    font-weight: 900;
+    font-size: 4em;
     padding-top: 150px
+  }
+  .services-heading p{
+    font-weight: 800;
+  }
+  .services-container{
+    flex-wrap: wrap;
   }
   .services-box{
     flex-grow: 1;
   }
+  .services-box h1{
+    color: #d82e18;
+  }
+  .services-box p{
+    font-size: 1.2rem;
+  } 
+  .services-box:hover{
+    box-shadow: 2px 2px 30px rgba(216, 46, 24, 0.937);
+    transition: all ease-in-out 0.6s;
+  }
+  .services-bar{
+    background-color: #d82e18;
+  }
+
   .social-links i{
     color: #d82e18;
     font-size: 2rem;
@@ -567,22 +598,6 @@ transform: scale(1.2);
     color: #fcfcfc;
     transition: 0.60s ease-in-out;
   }
-  .services-container{
-    flex-wrap: wrap;
-  }
-  .services{
-    height: auto;
-  }
-  .services-heading {
-    margin: 15px;
-  }
-  .services-box{
-    margin: 15px;
-    flex-grow: 1;
-  }
-  .services-box p{
-    font-size: 1.3rem;
-  } 
 }
 
 
