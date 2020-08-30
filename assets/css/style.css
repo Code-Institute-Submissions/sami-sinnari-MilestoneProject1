@@ -353,12 +353,13 @@ transform: scale(1.2);
 
 .services-heading{
   text-align: center;
+  padding-top: 5em;
 }
 
 .services-heading h1{
   color: #393a3b;
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 4rem;
+  font-weight: 800;
   letter-spacing: 1px;
   margin: 0px;
 }
@@ -366,6 +367,7 @@ transform: scale(1.2);
 .services-heading p{
   color: #6f7072;
   font-size: 1rem;
+  font-weight: 600;
   margin: 5px;
   text-align: center;
 }
@@ -489,6 +491,7 @@ transform: scale(1.2);
     color: #d82e18;
   }
 
+
   .banner{
     background: url(../images/Banner-max900px.jpg) no-repeat center;
     background-size: cover;
@@ -501,7 +504,6 @@ transform: scale(1.2);
   justify-content: center;
   text-align: center;
   }
-
   .hide-sm{
     display: none;
   }
@@ -521,10 +523,11 @@ transform: scale(1.2);
     color: #d82e18;
   }
 
+
   .about-div h5{
     color: #d82e18;
   }
-  /*about-div hover effect does not work on touch as banner button as well, but I'm planing to implement touch effects in the future. It works with @media(hover) effects*/
+  /*most of :hover effects does not work on tablet/mobile view but I'm planing to implement touch effects in the future. Nevertheless, It works with @media(hover) effects*/
   .about-div:hover {
     transform: scale(1.1);
     background: hsla(7, 80%, 47%, 0.937);
@@ -533,6 +536,7 @@ transform: scale(1.2);
     box-shadow: 0 20px 20px 2px rgba(243, 108, 18, 0.5);
     transition: .9s;
   }
+
 
   .test-col{
     flex: 100%;
@@ -548,9 +552,6 @@ transform: scale(1.2);
   .testimonials p{
     color: #615f5f;
   }
-
-
-
 
 
   .services{
@@ -586,6 +587,7 @@ transform: scale(1.2);
     background-color: #d82e18;
   }
 
+
   .social-links i{
     color: #d82e18;
     font-size: 2rem;
@@ -599,7 +601,6 @@ transform: scale(1.2);
     transition: 0.60s ease-in-out;
   }
 }
-
 
 
 @media screen and (max-width:640px) {
@@ -629,5 +630,11 @@ transform: scale(1.2);
 @media screen and (max-width:320px){
   .my-jumbotron-header{
     font-size: 1.6em;
+  }
+  .services-box h1{
+    font-size: 1.1em;
+  }
+  .services-box p{
+    font-size: 1em;
   }
  }
