@@ -330,9 +330,16 @@ transform: scale(1.2);
 .testimonial i{
   color: #e6e943;
 }
-.test-name{
+
+.testimonial h1{
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   margin: 20px 0;
+}
+
+.testimonial span{
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .stars{
@@ -527,7 +534,7 @@ transform: scale(1.2);
   .about-div h5{
     color: #d82e18;
   }
-  /*most of :hover effects does not work on tablet/mobile view but I'm planing to implement touch effects in the future. Nevertheless, It works with @media(hover) effects*/
+  /*most of :hover effects do not work on tablet/mobile view but I'm planing to implement touch effects in the future. Nevertheless, It works with @media(hover) effects which were not implemented on this project*/
   .about-div:hover {
     transform: scale(1.1);
     background: hsla(7, 80%, 47%, 0.937);
@@ -545,8 +552,7 @@ transform: scale(1.2);
   .testimonials{
     background: #e9baba25;;
   }
-  .testimonials h1
-  {
+  .testimonials h1{
     color: #d82e18;
   }
   .testimonials p{
