@@ -263,6 +263,11 @@ transform: scale(1.2);
   color: #fff;
 }
 
+.about-div i{
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
 .about-div p{
   font-size: 15px;
   color: #fff;
@@ -281,19 +286,12 @@ transform: scale(1.2);
 /* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
 
 .testimonials{
-  font-family:'Chilanka', sans-serif;
-  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
   padding: 40px 0;
   background: #699ab625;
   color: #2888e7;
   text-align: center;
-}
-
-.test-title{
-  max-width: 1200px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 20px;
 }
 
 .test-border{
@@ -350,7 +348,6 @@ transform: scale(1.2);
 
 /* Code below was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
 .services{
-  font-family: 'Chilanka', sans-serif;
   padding-top: 5rem;
   display: flex;
   justify-content: space-evenly;
@@ -543,7 +540,9 @@ transform: scale(1.2);
     box-shadow: 0 20px 20px 2px rgba(243, 108, 18, 0.5);
     transition: .9s;
   }
-
+  .about-div p{
+    display: grid;
+  }
 
   .test-col{
     flex: 100%;
