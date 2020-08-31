@@ -60,16 +60,15 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-testimonials.pdf) |
 | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-services.pdf)         |
 | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)          |
-|                                                                                                                                          |
-|                                                           Tablet view                                                                    |                    
-|  |
+|                                                                                                                                |                                                           Tablet view                                                                   |                    
+| :--------------------------------------------------------------------------------------------------------------------------------------: |
 | [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-home.pdf)                  |
 | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-about.pdf)                |
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-testimonials.pdf)  |
 | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-services.pdf)          |
 | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-contact.pdf)           |
-|                                                                                                                                |                                                           Mobile view                                                                    |                    
-|  |
+|                                                           Mobile view                                                                   |                    
+| :--------------------------------------------------------------------------------------------------------------------------------------: |
 | [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf)                   |
 | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf)                 |
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf)   |
