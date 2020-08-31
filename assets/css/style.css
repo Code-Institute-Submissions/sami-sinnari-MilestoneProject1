@@ -274,7 +274,7 @@ transform: scale(1.2);
 }
 
 .about-div:hover {
-  transform: scale(1.09);
+  transform: scale(1.08);
   background: hsla(210, 80%, 53%, 0.937);
   border-radius: 50px;
   color: #fff;
@@ -325,14 +325,15 @@ transform: scale(1.2);
   border-radius: 50%;
 }
 
-.testimonial i{
-  color: #e6e943;
-}
-
 .testimonial h1{
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   margin: 20px 0;
+}
+
+.testimonial i{
+  color: #e6e943;
+  margin-bottom: 20px;
 }
 
 .testimonial span{
@@ -340,10 +341,6 @@ transform: scale(1.2);
   font-size: 0.9rem;
 }
 
-.stars{
-  color: #6ab04c;
-  margin-bottom: 20px;
-}
 /* ----------------- Services section ----------------- */
 
 /* Code below was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
