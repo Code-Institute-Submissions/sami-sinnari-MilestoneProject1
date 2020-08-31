@@ -361,12 +361,11 @@ transform: scale(1.2);
 }
 
 .services-heading h1{
-  font-family: 'Give You Glory', cursive;
+  font-family: 'Rock Salt', cursive;
   color: #2888e7;
-  font-size: 4rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin: 0px;
+  font-size: 4.5rem;
+  letter-spacing: 3px;
+  margin: 15px;
 }
 
 .services-heading p{
@@ -394,8 +393,8 @@ transform: scale(1.2);
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
   padding: 20px 25px;
   box-sizing: border-box;
   margin: 30px;
@@ -406,13 +405,15 @@ transform: scale(1.2);
   font-family: 'Chilanka', sans-serif;
   color: #2888e7;
   letter-spacing: 1px;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  font-weight: 900;
   margin-bottom: 8px;
 }
 
 .services-box p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  color: #6f7072;
 }
 
 .services-box:hover{
@@ -568,13 +569,11 @@ transform: scale(1.2);
   }
   .services-heading h1{
     color: #d82e18;
-    font-family: 'Chilanka';
-    font-weight: 900;
-    font-size: 4em;
-    padding-top: 150px
+    font-size: 3em;
+    padding-top: 100px
   }
   .services-heading p{
-    font-weight: 800;
+    font-weight: 500;
   }
   .services-container{
     flex-wrap: wrap;
@@ -583,10 +582,11 @@ transform: scale(1.2);
     flex-grow: 1;
   }
   .services-box h1{
+    font-size: 1.3em;
     color: #d82e18;
   }
   .services-box p{
-    font-size: 1.2rem;
+    font-size: 1em;
   } 
   .services-box:hover{
     box-shadow: 2px 2px 30px rgba(216, 46, 24, 0.937);
@@ -640,8 +640,14 @@ transform: scale(1.2);
   .my-jumbotron-header{
     font-size: 1.6em;
   }
+  .services-heading h1{
+    padding-top: 50px;
+  }
+  .services-box{
+    height: 600px;
+  }
   .services-box h1{
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   .services-box p{
     font-size: 1em;
