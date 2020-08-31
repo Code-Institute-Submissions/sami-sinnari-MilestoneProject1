@@ -37,9 +37,9 @@ as we have entered a new age of development. There is big competition on the mar
 
 - As a **site owner**,  I want to attract the clients with special design as we are representing Web-develpment.
 
-- As a **site owner**, I want to include navigation bar on every page so the user can navigate easly.
+- As a **site owner**, I want to include navigation bar on every page so the user can navigate easily.
 
-- As a **site owner**, I want to represent our services on a seperate page and add a button on a home page which will lead there.
+- As a **site owner**, I want to represent our services on a seperate page and add a button to a home page which will lead there.
 
 - As a **site owner**, I want to showcast some of our reviews on the end of the page.
 
