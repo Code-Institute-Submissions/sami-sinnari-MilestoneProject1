@@ -68,8 +68,8 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-testimonials.pdf)  |
 | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-services.pdf)          |
 | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-contact.pdf)           |
-|                                                                                                                                          ||                                                           Mobile view                                                                    |                    
-| |
+|                                                                                                                                |                                                           Mobile view                                                                    |                    
+|  |
 | [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf)                   |
 | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf)                 |
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf)   |
