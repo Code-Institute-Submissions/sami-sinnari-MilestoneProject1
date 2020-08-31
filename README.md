@@ -135,5 +135,26 @@ For deployment, I have used VS Code with few extensions. Before submitting, I ha
 
 Extensions I used in VS code were : 
 
-1) Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
-2) Live Server
+- Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+- Live Server
+- vscode-pdf
+
+-----
+
+### Credits
+
+Background photo // Purchased on istockphoto.com
+
+Icons made by itim2101 www.flaticon.com // Photo in services ( content development)
+
+Icon arrow pointing down made by Pixel perfect from www.flaticon.com //  Arrow pointing down in About section
+
+Icons made by Freepik from www.flaticon.com // Number 1, 2 and 3 in About section.
+
+Photo by Mohammad Sadiq Padela from Pexels // Testimonials photo 1
+
+Photo by Andrea Piacquadio from Pexels // Testimonials photo 2
+
+Photo by Pixabay from Pexels // Testimonials photo 3
+
+Gold vector created by rawpixel.com // Background img max-width:900px
