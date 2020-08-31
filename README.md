@@ -1,4 +1,4 @@
-#StartUpHub
+# StartUpHub
 
 StartUpHub is a made up company that deals with website developing for new companies. We provide services that can be of great benefit when creating your own company. Our main focus is on creating very attractive websites for the young and modern population, as we mainly implement new ways and styles of web developing. Moreover, the other service we offer are consultations. We work closely with our clients to make sure we deliver exactely what they need. Our consultants will guide the clients by showcasing web desing elements and making them simple to understand in order to create a perfect working flow, and build a lasting relationship even after their website has been finished.
 
@@ -6,33 +6,6 @@ StartUpHub is a made up company that deals with website developing for new compa
 
 
 The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/#)
-
----
-
-## Contents
-
-- [**User Experience (UX)**](<#user-experience-(ux)>)
-
-  - Project Goals
-  - User Goals
-  - Design
-  - Wireframes
-
-- [**Features**](#features)
-
-  - Implemented
-  - Left to be implemented
-
-- [**Technologies**](#technologies-used)
-
-  - Languages Used
-  - Frameworks, Libraries and Programs Used
-
-- [**Testing**](#testing)
-
-- [**Deployment**](#deployment)
-
-- [**Credits**](#credits)
 
 ---
 
@@ -89,14 +62,14 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)          |
 |                                                                                                                                          |
 |                                                           Tablet view                                                                    |                    
-| :--------------------------------------------------------------------------------------------------------------------------------------: |
+|  |
 | [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-home.pdf)                  |
 | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-about.pdf)                |
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-testimonials.pdf)  |
 | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-services.pdf)          |
 | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-contact.pdf)           |
 |                                                                                                                                          ||                                                           Mobile view                                                                    |                    
-| :--------------------------------------------------------------------------------------------------------------------------------------: |
+| |
 | [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf)                   |
 | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf)                 |
 | [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf)   |
@@ -104,11 +77,9 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-contact.pdf)            |
 |                                                                                                                                          |
 
-#### [Contents](#contents)
+## Features
 
-##Features
-
-##The features implemented on this project: 
+### The features implemented on this project: 
 
 - Navigation: I included navigation bar on every page so the user can navigate easly and it links are styled simple and modern, with hover effects. The navigation bar was created using [Bootstrap](https://getbootstrap.com/) .
 
@@ -121,7 +92,7 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 - Social links: Links to social media were included as a footer on every page. I have added hover effects to footer and matched the colors with point of view.
 
 
-##The features I would like to add in future :
+### The features I would like to add in future :
 
 - I would like to add :hover effects on tap, as :hover effect works only on destkop view. The :hover can be added in the future through @media(hover) element
 - I would like to add few more services on the website thus expand the business.
@@ -129,16 +100,16 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 - I would like to implement back-end technology and make this website a real Start-Up company for Web design.
 - I would like to add a company logo.
 
-#### [Contents](#contents)
 
-##Technologies Used
 
-##Languages
+## Technologies Used
+
+### Languages
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-##Frameworks, Libraries and Programs:
+### Frameworks, Libraries and Programs:
 
 [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with understanding of Bootstrap and knowledge it has
@@ -157,12 +128,13 @@ I have used VS Code to code the project.
 I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
 
 
-##Testing
- To be done
+### Testing
+
+
 -----
 
 
-###Deployment
+### Deployment
 
 For deployment, I have used VS Code with few extensions. Before submitting, I have used Google Chrome Developer Tool.
 
