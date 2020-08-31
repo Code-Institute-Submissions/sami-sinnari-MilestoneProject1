@@ -536,7 +536,7 @@ transform: scale(1.2);
   /*most of :hover effects do not work on tablet/mobile view but I'm planing to implement touch effects in the future. Nevertheless, It works with @media(hover) effects which were not implemented on this project*/
   .about-div:hover {
     transform: scale(1.1);
-    background: hsla(7, 80%, 47%, 0.937);
+    background: hsla(7, 90%, 60%, 0.937);
     border-radius: 50px;
     color: #fff;
     box-shadow: 0 20px 20px 2px rgba(243, 108, 18, 0.5);
