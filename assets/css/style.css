@@ -8,7 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
-
 }
 
 /* ----------------- Navbar section ----------------- */
@@ -191,7 +190,6 @@ transform: scale(1.2);
 }
 
 .banner .block-divider{
-  color: #fff;
   border: 0.5px solid #d82e18;
 }
 
@@ -489,24 +487,29 @@ transform: scale(1.2);
     -moz-background-size: cover;
      background-size: cover;
     -o-background-size: cover;
-    font-size: 1em;
-     padding-top: 150px;
-    justify-content: center;
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    font-size: 1em;
+     padding-top: 350px;
   }
-  
   .my-jumbotron-header{
     color: #fff;
   }
-
-  .lead{
-    font-weight: 400;
-    color: #ffffff;
+  .lead {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #fff;
   }
-  
   .banner .block-divider{
-    border: 0.5px solid #ffffff;
+    border: 0.8px solid #fff;
   }
+  .banner-button{
+    display: block;
+  }
+
+
   .about-div p{
     display: grid;
   }
@@ -552,26 +555,39 @@ transform: scale(1.2);
 
 
 @media screen and (max-width:640px) {
-
   .test-col{
     flex: 100%;
     max-width: 100%;
   }
+
   .modal-body h2{
     font-size: 1.5em;
   }
+
   .banner{
-   padding-top: 17em;
+  padding-top: 380px;
   }
+  
   .services-box{
     padding-top: 5em;
   }
 }
 
 @media screen and (max-width:320px){
-  .my-jumbotron-header{
-    font-size: 1.6em;
+  .banner{
+    background: url(../images/background-mobile.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     background-size: cover;
+    -o-background-size: cover;
+    font-size: 1em;
+     padding-top: 370px;
+     padding-bottom: 20px;
   }
+  .my-jumbotron-header{
+    font-size: 1.5em;
+  }
+
   .services-heading h1{
     padding-top: 50px;
   }
