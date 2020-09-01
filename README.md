@@ -107,20 +107,19 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 ### Frameworks, Libraries and Programs:
 
 [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with understanding of Bootstrap and knowledge it has
-to offer. It was used aswell to give basic layout to the page and to also add other features including nav bar and modal.
+- I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with understanding of Bootstrap and knowledge it has to offer. It was used aswell to give basic layout to the page and to also add other features including nav bar and modal.
 
 [Font Awesome](https://fontawesome.com/)
-I have used font awsome to add icons to social media links.
+- I have used font awsome to add icons to social media links.
 
 [Google Fonts](https://fonts.google.com/)
-I have used Google fonts to add Poppis and Raleway font.
+- I have used Google fonts to add Poppis and Raleway font.
 
 [VSCode](https://code.visualstudio.com/)
-I have used VS Code to code the project. 
+- I have used VS Code to code the project. 
 
 [Balsamiq](https://balsamiq.com/)
-I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
+- I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
 
 
 ### Testing
@@ -131,9 +130,9 @@ I have used Balsamiq to create the wireframes for desktop, mobile and tablet vie
 
 ### Deployment
 
-For deployment, I have used VS Code with few extensions. Before submitting, I have used Google Chrome Developer Tool.
+For deployment, I have used VS Code with few extensions. Before submitting, I have used Firefox and Google Chrome Developer Tool.
 
-Extensions I used in VS code were : 
+### Extensions used in VS code were : 
 
 - Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 - Live Server
@@ -156,5 +155,3 @@ Photo by Mohammad Sadiq Padela from Pexels // Testimonials photo 1
 Photo by Andrea Piacquadio from Pexels // Testimonials photo 2
 
 Photo by Pixabay from Pexels // Testimonials photo 3
-
-Gold vector created by rawpixel.com // Background img max-width:900px
