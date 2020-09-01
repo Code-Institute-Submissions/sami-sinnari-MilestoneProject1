@@ -54,23 +54,15 @@ I wanted to implement a minimalistic approach to my design in order to make navi
 Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). I created wireframes for mobile, tablet and desktop view. Below are links to my wireframes.
 
 #### Desktop view
-| [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-home.pdf)|
-| [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-about.pdf)|
-| [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-testimonials.pdf)|
-| [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-services.pdf)|
-| [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)|
+[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-about.pdf) |
+ [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)|
 #### Tablet view
-| [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-home.pdf)|
-| [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-about.pdf)|
-| [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-testimonials.pdf)|
-| [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-services.pdf)|
-| [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-contact.pdf)|         
+[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-home.pdf) |
+ [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-about.pdf) | 
+[Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-contact.pdf)       
 #### Mobile view
-| [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf)|
-| [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf)|
-| [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf)|
-| [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-services.pdf)|
-| [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-contact.pdf)|
+[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf) |
+ [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-contact.pdf)
 
 ## Features
 
@@ -128,7 +120,7 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 -----
 
 
-### Deployment
+## Deployment
 
 For deployment, I have used VS Code with few extensions. Before submitting, I have used Firefox and Google Chrome Developer Tool.
 
@@ -140,7 +132,7 @@ For deployment, I have used VS Code with few extensions. Before submitting, I ha
 
 -----
 
-### Credits
+## Credits
 
 Background photo // Purchased on istockphoto.com
 
