@@ -165,8 +165,8 @@ transform: scale(1.2);
   background: url("../images/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   display: flex;
   align-items: center;
   max-width: 100%;
@@ -181,7 +181,6 @@ transform: scale(1.2);
 
 .my-jumbotron-header {
   color: #fff;
-  font-family: 'Raleway' sans-serif;
   font-size: 2em; 
   font-weight: bold;
 }
@@ -488,21 +487,26 @@ transform: scale(1.2);
     background: url(../images/background-mobile.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+     background-size: cover;
     -o-background-size: cover;
-  font-size: 1em;
-  padding-top: 150px;
-  justify-content: center;
-  text-align: center;
+    font-size: 1em;
+     padding-top: 150px;
+    justify-content: center;
+    text-align: center;
   }
   
   .my-jumbotron-header{
-    color: #f34e38;
-  }
-  .lead{
-    font-weight: 500;
+    color: #fff;
   }
 
+  .lead{
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .banner .block-divider{
+    border: 0.5px solid #ffffff;
+  }
   .about-div p{
     display: grid;
   }
@@ -537,6 +541,7 @@ transform: scale(1.2);
     font-size: 1em;
   } 
 
+  
   .social-links i{
     font-size: 2rem;
     border-radius: 65%;
