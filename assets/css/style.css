@@ -86,9 +86,11 @@ body {
   color: #d82e18;
 }
 
-.modal-header{
-  text-align: center;
-  color: #2888e7;
+.modal-header {
+  display: grid;
+  text-align: right;
+  justify-content: right;
+  border-bottom: none;
 }
 
 .modal-heading{
@@ -432,6 +434,10 @@ transform: scale(1.2);
   font-weight: 400;
 }
 
+.fees i{
+  font-size: 1.2em;
+}
+
 .services-box:hover .services-bar{
   display: block;
 }
@@ -568,13 +574,12 @@ transform: scale(1.2);
   .modal-body h2{
     font-size: 1.5em;
   }
-
-  .banner{
-  padding-top: 380px;
-  }
   
   .services-box{
     padding-top: 5em;
+  }
+  .fees i{
+    display: none;
   }
 }
 
