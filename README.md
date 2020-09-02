@@ -54,7 +54,9 @@ I decided to use
 
 ### Wireframes
 
-Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). I created wireframes for mobile, tablet and desktop view. Below are links to my wireframes.
+Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
+I created wireframes for mobile, tablet and desktop view. 
+Below are links to my wireframe pages.
 
 #### Desktop view
 [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-about.pdf) |
@@ -67,26 +69,29 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf) |
  [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-contact.pdf)
 
+ - Contact Modal : I have changed the close button in modal to word : "nevermind" , which was added in right top corner as well.
+
+ - Services page : I have added a link at the bottom explaning that our service fees are provided on inquiry.
+
 ## Features
 
 ### The features implemented on this project: 
 
-- Navigation: I included navigation bar on every page so the user can navigate easly and it links are styled simple and modern, with hover effects. The navigation bar was created using [Bootstrap](https://getbootstrap.com/) .
+- Navigation : I included navigation bar on every page so the user can navigate easly and it links are styled simple and modern, with hover effects. The navigation bar was created using [Bootstrap](https://getbootstrap.com/) .
 
-- Background: I have added background images on all sizes with maching banner text and background pictures. The aim was to prove that visual user experience matters. I decided to seperate destkop and tablet/mobile view of the website as we are web development company, and this shows our flexibility with designs. Moreover, the font style of the website is lowercase because I am trying to show that something out of the ordinary can be attractive.
+- Background : I have added background image on all sizes with maching banner text and background image. The aim was to prove that visual user experience matters. Moreover, the font style of the website is lowercase because I am trying to show that something out of the ordinary can be attractive. By doing that, I have changed the usual word "Close" to "nevermind" as well.
 
-- Contact form: I decided to change the typing style from "Contact us" to "say something" because I am trying to attract user's attention to details, thus leave a good impression of company's web design. A simple [Bootstrap](https://getbootstrap.com/) modal was used in order to create a contact form pop-up. I have customized the buttons on modal and included hover effects.
+- Contact form : I decided to change the typing style from "Contact us" to "say something" because I am trying to attract user's attention to details, thus leave a good impression of company's web design. A simple [Bootstrap](https://getbootstrap.com/) modal was used in order to create a contact form pop-up. I have customized the buttons on modal and included hover effects which are not responsive on smaller devices, but this will be implemented in the future through media(hover) effects.
 
-- Testimonial section: The word "Testimonials" was changed with "our clients love our work" to focus the user on positivity before reading and seeing our ratings and comments.
+- Testimonial section : The word "Testimonials" was changed with "our clients love our work" to focus the user on positivity before reading and seeing our ratings and comments.
 
-- Social links: Links to social media were included as a footer on every page. I have added hover effects to footer and matched the colors with point of view.
+- Social links : Links to social media were included as a footer on every page. I have added hover effects to footer and matched the colors with point of view.
 
 
 ### The features I would like to add in future :
 
 - I would like to add :hover effects on tap, as :hover effect works only on destkop view. The :hover can be added in the future through @media(hover) element
-- I would like to add few more services on the website thus expand the business.
-- I would like to add different design style only for @media (max-width:400)
+- I would like to add few more services on the website thus expanding the business.
 - I would like to implement back-end technology and make this website a real Start-Up company for Web design.
 - I would like to add a company logo.
 
@@ -101,27 +106,26 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 
 ### Frameworks, Libraries and Programs:
 
-[Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-- I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with understanding of Bootstrap and knowledge it has to offer. It was used aswell to give basic layout to the page and to also add other features including nav bar and modal.
-
-[Font Awesome](https://fontawesome.com/)
-- I have used font awsome to add icons to social media links.
-
-[Google Fonts](https://fonts.google.com/)
-- I have used Google fonts to add Poppis and Raleway font.
-
-[VSCode](https://code.visualstudio.com/)
-- I have used VS Code to code the project. 
-
-[Balsamiq](https://balsamiq.com/)
-- I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
-
-
+- [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+  - I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with understanding of Bootstrap and knowledge it has to offer. It was used aswell to give basic layout to the page and to also add other features including nav bar and modal.
+- [Font Awesome](https://fontawesome.com/)
+  - Font awesome was used to add icons to social media links.
+- [Google Fonts](https://fonts.google.com/)
+  - Google fonts were used to add 'Poppis', 'Chilanka' and 'Rock and Salt' fonts.
+- [VSCode](https://code.visualstudio.com/)
+  - I have used VS Code to code the project alongside GitPod. 
+- [Balsamiq](https://balsamiq.com/)
+  - I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
+- [GitHub](https://github.com/)
+  - GitHub was used to store the code that was pushed from VScode and to open a project in GitPod.
+- [Gitpod](https://www.gitpod.io/)
+  -Gitpod was used to code the project alongside VScode.
 ## Testing
+The W3C Markup Validator and W3C CSS Validator were used to check every page and code of the project.
+The results of the same are as follows:
 
 
-
-
+### Testing User Stories from UX Section
 
 ## Deployment
 
