@@ -252,9 +252,9 @@ transform: scale(1.2);
   padding: 20px;
   margin-bottom: 10px;
   border: 1.5px ridge #2888e7;
-  border-block-end: none;
-  border-block-start: none;
-  border-radius: 20px;
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 30px;
   height: 22em
 }
 

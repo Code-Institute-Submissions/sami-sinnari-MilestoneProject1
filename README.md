@@ -121,9 +121,12 @@ Below are links to my wireframe pages.
 - [Gitpod](https://www.gitpod.io/)
   -Gitpod was used to code the project alongside VScode.
 ## Testing
-The W3C Markup Validator and W3C CSS Validator were used to check every page and code of the project.
-The results of the same are as follows:
-
+For test the code I have used W3C Markup Validator and W3C CSS Validator to check every page and code of the project.
+The results are as follows:
+- [W3C Markup Validator](https://validator.w3.org/)
+  - services.html -  No errors or warnings to show.
+  - index.html - no errors / 2 warnings found
+    - Warning 1 - 
 
 ### Testing User Stories from UX Section
 
