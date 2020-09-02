@@ -47,7 +47,10 @@ as we have entered a new age of development. There is big competition on the mar
 
 ### Design
 
-I wanted to implement a minimalistic approach to my design in order to make navigation thru the website simple and efficient. I decided to design the website differently in destkop and tablet/mobile view. In destkop view, I have used color contrasts of blue with red tones, wheres in tablet/mobile view I used the same contrast in reverse. By doing so, I aimed to create a better visual dynamic in order to showcase the power of design.
+I wanted to implement a minimalistic approach to my design in order to make navigation thru the website simple and efficient. I have used color contrasts of blue with red/orange tones to match the background image. I decided to implement hover effects to show the flexibility of the company and the ablity of customizing the site thru advanced web-development. 
+
+- Typography
+I decided to use 
 
 ### Wireframes
 

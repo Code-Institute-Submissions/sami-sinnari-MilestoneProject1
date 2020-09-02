@@ -37,9 +37,12 @@ body {
   letter-spacing: 1px;
 }
 
-.nav-link {
-  font-weight: bold;
-  padding: .1rem 1rem;
+.navbar-light .navbar-nav .nav-link {
+  font-weight: bold; 
+  padding: .5rem 0.5rem;
+  letter-spacing: 1px;
+  display: block;
+  color: #000000c9;
 }
 
 .navbar-light .navbar-toggler {
@@ -248,11 +251,16 @@ transform: scale(1.2);
   text-align: center;
   padding: 20px;
   margin-bottom: 10px;
+  border: 1.5px ridge #2888e7;
+  border-block-end: none;
+  border-block-start: none;
+  border-radius: 20px;
+  height: 22em
 }
 
 .about-div h5{
   margin-bottom: 20px;
-  font-family: 'Chilanka', cursive;
+  font-family: 'Chilanka', sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: #2888e7;
@@ -365,7 +373,7 @@ transform: scale(1.2);
 
 .services-heading p{
   color: #6f7072;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   margin: 5px;
@@ -406,7 +414,8 @@ transform: scale(1.2);
 }
 
 .services-box p{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   text-align: center;
   color: #6f7072;
 }
@@ -510,8 +519,9 @@ transform: scale(1.2);
   }
   .lead {
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
   .banner .block-divider{
     border: 0.8px solid #fff;
