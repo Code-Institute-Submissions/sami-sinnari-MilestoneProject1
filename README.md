@@ -7,7 +7,7 @@ StartUpHub is a made up company that deals with website developing for new compa
 
 The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/#)
 
----
+-----
 
 ## User Experience (UX)
 
@@ -73,6 +73,8 @@ Below are links to my wireframe pages.
 
  - Services page : I have added a link at the bottom explaning that our service fees are provided on inquiry.
 
+-----
+
 ## Features
 
 ### The features implemented on this project: 
@@ -95,7 +97,7 @@ Below are links to my wireframe pages.
 - I would like to implement back-end technology and make this website a real Start-Up company for Web design.
 - I would like to add a company logo.
 
-
+-----
 
 ## Technologies Used
 
@@ -120,33 +122,66 @@ Below are links to my wireframe pages.
   - GitHub was used to store the code that was pushed from VScode and to open a project in GitPod.
 - [Gitpod](https://www.gitpod.io/)
   -Gitpod was used to code the project alongside VScode.
+
+  -----------
+
+
 ## Testing
 For code testing I used W3C Markup Validator and W3C CSS Validator to check every page and code of the project.
 The results are as follows:
 - [W3C Markup Validator](https://validator.w3.org/)
   - services.html -  No errors or warnings to show.
-  - index.html - no errors / 1 warning found = The warning was a consideration to use h1 element only as a top-level heading,
-  but in that case h1 element was used for that purpose.
+  - index.html - no errors / 1 warning found  
+    - The warning was a consideration to use h1 element only as a top-level heading,
+      but in that case h1 element was used for that purpose.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - style.css - No error found.
-  - The validator displayed 21 warnings. 9 warning were for -webkit/-moz/-o-background size's, and other 12 warnings were in regards to background color being the same. The CSS validator didn't recognize the hover effects and the reason for the same background color.
+    - The validator displayed 21 warnings. Nine warnings were for -webkit/-moz/-o-background size's, and other twelve warnings were in regards to background color being the same. The CSS validator didn't recognize the hover effects and the reason for the same background color.
+
 ### Testing User Stories from UX Section
+
+As a **user**, I want to understand the purpose of the web site im visiting on the first encounter.
+
+  - for a **user**, I've added a paragraph on the landing page explaining that we are building websites for Start-Up's.
+
+As a **user**, I want to be guided easly throught-out the website.
+
+  - for a **user**, I've added navigation bar to the top of every page on the website with links to each page an section.
+
+As a **user**, I want to read about company's actions and the way they are dealing with Start-Ups.
+
+  - for a **user**, I've explained the way to go in "about" section. Nevertheless, the "find out more
+   button was added to landing page in order for user to get more information about our service.
+
+As a **user**, I want to read some testemonials to be sure this is the right company for me.
+
+  - for a **user**, I've added testimonials section at the end of the home page with ratings we received. By doing so, I'd like to attract user's attention to our success.
+
+As a **user**, I want to be able to contact the company and book a metting or get more information about their services and fees.
+
+  - for a **user**, I've added a Contact(Modal) link on every page where they can fill in their details. Once filled, we will contact them and provide them with service fees, as mentioned on the bottom of the page in services. Moreover, I have included social links to the footer on each page. These link to Instagram, LinkedIn, Facebook and Mail. All of those link will open in a seperate page so the user can easily come back to the site.
+
+### Further Testing
+
+I have also tested this site across multiple devices and browsers :
+
+- Next to Google DevTool, I have used Firefox and Safari before submitting the code to GitHub.
+- The site was tested on few personal devices like : Samsung Galaxy Note10 Plus, Saumsung Galaxy S9 Plus, iPhone X, iPhone SE, iPad, etc.
+- The site has been reviewed by my Mentor Can and some students from my group jun-2020
+------
 
 ## Deployment
 
-For deployment, I have used VS Code with few extensions. Before submitting, I have used Firefox and Google Chrome Developer Tool.
 
-### Extensions used in VS code were : 
 
-- Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
-- Live Server
-- vscode-pdf
-
------
+-------
 
 ## Credits
 
+### Code
+
+### Pictures
 Background photo // Purchased on istockphoto.com
 
 Icons made by itim2101 www.flaticon.com // Photo in services ( content development)
@@ -160,3 +195,11 @@ Photo by Mohammad Sadiq Padela from Pexels // Testimonials photo 1
 Photo by Andrea Piacquadio from Pexels // Testimonials photo 2
 
 Photo by Pixabay from Pexels // Testimonials photo 3
+
+### Acknowledgements
+
+
+
+---------------
+
+This site was built for educational purposes. If you find any content not mentioned in **Credits** that violates the copyrights, please contact me on samisinnari@gmail.com
