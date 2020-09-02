@@ -121,13 +121,16 @@ Below are links to my wireframe pages.
 - [Gitpod](https://www.gitpod.io/)
   -Gitpod was used to code the project alongside VScode.
 ## Testing
-For test the code I have used W3C Markup Validator and W3C CSS Validator to check every page and code of the project.
+For code testing I used W3C Markup Validator and W3C CSS Validator to check every page and code of the project.
 The results are as follows:
 - [W3C Markup Validator](https://validator.w3.org/)
   - services.html -  No errors or warnings to show.
-  - index.html - no errors / 2 warnings found
-    - Warning 1 - 
+  - index.html - no errors / 1 warning found = The warning was a consideration to use h1 element only as a top-level heading,
+  but in that case h1 element was used for that purpose.
 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - style.css - No error found.
+  - The validator displayed 21 warnings. 9 warning were for -webkit/-moz/-o-background size's, and other 12 warnings were in regards to background color being the same. The CSS validator didn't recognize the hover effects and the reason for the same background color.
 ### Testing User Stories from UX Section
 
 ## Deployment
