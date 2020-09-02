@@ -14,7 +14,7 @@ The image above is a screenshot from [Am I Responsive](http://ami.responsivedesi
 
 ### Project Goals
 
-The main purpose of this project is to create a website that will support a newly created company. We would build the website for them and they would be provided with various designs. The website will show that we, as a company, have experience in creating new styles of websites that are attractive at first glance. I wanted to implement new looks of website styles,
+The main purpose of this project is to create a website that will support a newly created company. We would build the website for them and they would be provided with various designs. The website will show that we, as a company, have experience in creating new styles of websites that are attractive at first glance. I wanted to implement new way of website wording,
 as we have entered a new age of development. There is big competition on the market, which only brings needs to stand out.
 
 
@@ -55,7 +55,7 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 
 #### Desktop view
 [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-about.pdf) |
- [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)|
+ [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)
 #### Tablet view
 [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-home.pdf) |
  [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-about.pdf) | 
@@ -114,10 +114,10 @@ Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
 - I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
 
 
-### Testing
+## Testing
 
 
------
+
 
 
 ## Deployment

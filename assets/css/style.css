@@ -427,6 +427,11 @@ transform: scale(1.2);
   animation: bar 0.9s;
 }
 
+.fees{
+  text-align: center;
+  font-weight: 400;
+}
+
 .services-box:hover .services-bar{
   display: block;
 }
