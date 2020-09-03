@@ -90,10 +90,26 @@ body {
 }
 
 .modal-header {
-  display: grid;
+  display: flex;
   text-align: right;
-  justify-content: right;
-  border-bottom: none;
+  border-bottom: none
+}
+
+.btn-header{
+  background: #d82e18;
+  color: #fff;
+  border: 1px solid #d82e18;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.btn-header:hover{
+  background: #2888e7;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  transition: .3s ease-in;
+  transform: scale(1.05);
 }
 
 .modal-heading{
@@ -144,8 +160,8 @@ body {
   background: #2888e7;
   color: #fff;
   text-decoration: none;
-  transition: .5s ease-in;
-  transform: scale(1.05);
+  transition: .4s ease-in;
+  transform: scale(1.04);
 }
 
 .btn-secondary{
@@ -484,22 +500,24 @@ transform: scale(1.2);
 
 /* ----------------- Media Queries ----------------- */
 
-@media screen and (max-width:992px){
+@media screen and (max-width:1024px){
 
   .navbar-toggler{
     font-size: 15px;
   }
+
   .nav-link{
     padding-top: 1rem;
   }
+
   .navbar-link{
     font-size: 2em;
     padding-top: 5px;
   }
+
   .navbar-light .navbar-brand {
     font-size: 30px;
   }
-
 
   .banner{
     background: url(../images/background-mobile.jpg) no-repeat center center fixed;
@@ -514,59 +532,65 @@ transform: scale(1.2);
     font-size: 1em;
     padding-top: 350px;
   }
+
   .my-jumbotron-header{
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
+
   .lead {
     font-size: 1.2em;
     font-weight: 500;
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
+
   .banner .block-divider{
     border: 0.8px solid #fff;
   }
+
   .banner-button{
     display: block;
   }
 
-
   .about-div p{
     display: grid;
   }
-
 
   .test-col{
     flex: 100%;
     max-width: 80%;
   }
 
-
   .services{
     height: auto;
   }
+
   .services-heading h1{
     font-size: 3em;
     padding-top: 100px
   }
+
   .services-heading p{
     font-weight: 500;
   }
+
   .services-container{
     flex-wrap: wrap;
   }
+
   .services-box{
     flex-grow: 1;
   }
+
   .services-box h1{
     font-size: 1.3em;
   }
+  
   .services-box p{
     font-size: 1em;
   } 
 
-  
   .social-links i{
     font-size: 2rem;
     border-radius: 65%;
@@ -577,6 +601,7 @@ transform: scale(1.2);
 
 
 @media screen and (max-width:640px) {
+
   .test-col{
     flex: 100%;
     max-width: 100%;
@@ -585,20 +610,23 @@ transform: scale(1.2);
   .modal-body h2{
     font-size: 1.5em;
   }
-  
+
   .services-box{
     padding-top: 5em;
   }
+
   .fees i{
     display: none;
   }
 }
 
 @media screen and (max-width:320px){
+
   .banner{
      padding-top: 370px;
      padding-bottom: 20px;
   }
+
   .my-jumbotron-header{
     font-size: 1.5em;
   }
@@ -606,12 +634,15 @@ transform: scale(1.2);
   .services-heading h1{
     padding-top: 50px;
   }
+
   .services-box{
-    height: 800px;
+    height: 600px;
   }
+
   .services-box h1{
     font-size: 1.2em;
   }
+
   .services-box p{
     font-size: 1em;
   }
