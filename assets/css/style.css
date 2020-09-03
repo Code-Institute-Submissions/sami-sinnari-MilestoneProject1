@@ -290,7 +290,7 @@ transform: scale(1.2);
 }
 
 /* ----------------- Testimonials section ----------------- */
-/* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
+/* The Testemonials look was inspired by DarkCode's designs. Find more in README.md > Credits */
 
 .testimonials{
   font-weight: 300;
@@ -349,7 +349,7 @@ transform: scale(1.2);
 
 /* ----------------- Services section ----------------- */
 
-/* Code below was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
+/* The look was inspired by Going-To Internet's way of styling the boxes. Find more in README.md > Credits  */
 .services{
   padding-top: 5rem;
   display: flex;

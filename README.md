@@ -10,6 +10,33 @@ A demo of the website can be found here [www.Start-Up-Hub.com](https://sami-sinn
 
 ---
 
+## Contents
+
+- [**User Experience (UX)**](<#user-experience-(ux)>)
+
+  - Project Goals
+  - User Goals
+  - Design
+  - Wireframes
+
+- [**Features**](#features)
+
+  - The features implemented on this project
+  - The features I would like to add in future
+
+- [**Technologies**](#technologies-used)
+
+  - Languages Used
+  - Frameworks, Libraries and Programs Used
+
+- [**Testing**](#testing)
+
+- [**Deployment**](#deployment)
+
+- [**Credits**](#credits)
+
+---
+
 ## User Experience (UX)
 
 ### Project Goals
@@ -76,6 +103,8 @@ Below are links to my wireframe pages.
 
  - Services page : I have added a paragraph at the bottom of the page explaning that our service fees are provided on inquiry.
 
+#### [Contents](#contents)
+
 ---
 
 ## Features
@@ -99,6 +128,8 @@ Below are links to my wireframe pages.
 - I would like to add few more services on the website thus expanding the business.
 - I would like to implement back-end technology and make this website a real Start-Up company for Web design.
 - I would like to add a company logo.
+
+#### [Contents](#contents)
 
 ---
 
@@ -126,7 +157,9 @@ Below are links to my wireframe pages.
 - [Gitpod](https://www.gitpod.io/)
   - Gitpod was used to code the project alongside VScode.
 
-  ---
+#### [Contents](#contents)
+
+---
 
 ## Testing
 For code testing I used W3C Markup Validator and W3C CSS Validator to check every page and code of the project.
@@ -172,6 +205,8 @@ I have also tested this site across multiple devices and browsers :
 - The site was tested on few personal devices like : Samsung Galaxy Note10 Plus, Saumsung Galaxy S9 Plus, iPhone X, iPhone SE, iPad, etc.
 - The site has been reviewed by my Mentor Can Sücüllü and some students from my group jun-2020
 
+#### [Contents](#contents)
+
  ---
 
 ## Deployment
@@ -204,7 +239,9 @@ git clone https://github.com/sami-sinnari/MilestoneProject1.git
 
 7. Press Enter to create a local clone.
 
- ---
+#### [Contents](#contents)
+
+---
 
 ## Credits
 
@@ -214,31 +251,49 @@ git clone https://github.com/sami-sinnari/MilestoneProject1.git
   Background photo // Purchased on istockphoto.com
 
 - About page :
-  Icon arrow pointing down made by Pixel perfect from www.flaticon.com
+  Icon arrow pointing down // made by Pixel perfect from www.flaticon.com
+  Numbers 1 to 3 in About section // Icons made by Freepik from www.flaticon.com
 
-- Testimonials section:
+- Testimonials section :
    Testimonial picture 1 // Photo created by pch.vector at www.freepik.com
    Testimonial picture 2 // Photo created by freepik at www.freepik.com
    Testimonial picture 3 // Photo by Pixabay from Pexels
 
+- Services page :
+   Icon made by Linector from www.flaticon.com // Icon in services page under "consultations"
+   Icon made by itim2101 from www.flaticon.com // Icon in services page under "content development"
+   Icon made by iconixar from www.flaticon.com // Icon in services page under "web design"
 
-Icons made by itim2101 www.flaticon.com // Photo in services ( content development)
-
-Icons made by Freepik from www.flaticon.com // Number 1, 2 and 3 in About section.
-
-
-### Icons
+- Contact us (modal) :
+   Icons made by Freepik from www.flaticon.com // Icon above "send" in contact form ("say something" modal)
 
 ### Code
 
-### Content
+The channels below were used to gain examples of how the page sections should look for business sites.
 
+- Testemonials section 
+  Look was inspired by [DarkCode's designs](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+
+- Services page
+  Look was inspired by [Going-To Internet's](https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ ) way of styling the boxes. 
+
+### Content
+ - The content on this site was written by the developer.
+ - The README.md is based on the Code Institute sample of README.md file.
 
 
 ### Acknowledgements
 
+I would like to thank the people who have helped me through this project:
 
+ - My mentor Can Sücüllü for his time, patience, and support during the Project and for all feedback and advice on this project.
+ - My fellow students at Code Instutite and wonderful Slack community for all the support and feedback and Neringa Bickmore for sharing examples of her README file - alongside Code Institue's README.md file.
+ - And lastly, i'd like to thank Code Institute's Staff for incredible content which provided me with sufficient knowledge to make this site myself.
+
+#### [Contents](#contents)
 
 ---
 
 This site was built for educational purposes. If you find any content not mentioned in **Credits** that violates the copyrights, please contact me on samisinnari@gmail.com
+
+---
