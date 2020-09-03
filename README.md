@@ -247,39 +247,39 @@ git clone https://github.com/sami-sinnari/MilestoneProject1.git
 
 ### Pictures
 
-- Home page :
-  Background photo // Purchased on istockphoto.com
+Home page :
+  - Background photo // Purchased on istockphoto.com
 
-- About page :
-  Icon arrow pointing down // made by Pixel perfect from www.flaticon.com
-  Numbers 1 to 3 in About section // Icons made by Freepik from www.flaticon.com
+About page :
+  - Icon arrow pointing down // made by Pixel perfect from www.flaticon.com
+  - Numbers 1 to 3 in About section // Icons made by Freepik from www.flaticon.com
 
-- Testimonials section :
-   Testimonial picture 1 // Photo created by pch.vector at www.freepik.com
-   Testimonial picture 2 // Photo created by freepik at www.freepik.com
-   Testimonial picture 3 // Photo by Pixabay from Pexels
+Testimonials section :
+  - Testimonial picture 1 // Photo created by pch.vector at www.freepik.com
+  - Testimonial picture 2 // Photo created by freepik at www.freepik.com
+  -  Testimonial picture 3 // Photo by Pixabay from Pexels
 
-- Services page :
-   Icon made by Linector from www.flaticon.com // Icon in services page under "consultations"
-   Icon made by itim2101 from www.flaticon.com // Icon in services page under "content development"
-   Icon made by iconixar from www.flaticon.com // Icon in services page under "web design"
+Services page :
+  - Icon made by Linector from www.flaticon.com // Icon in services page under "consultations"
+  - Icon made by itim2101 from www.flaticon.com // Icon in services page under "content development"
+  - Icon made by iconixar from www.flaticon.com // Icon in services page under "web design"
 
-- Contact us (modal) :
-   Icons made by Freepik from www.flaticon.com // Icon above "send" in contact form ("say something" modal)
+Contact us (modal) :
+  - Icons made by Freepik from www.flaticon.com // Icon above "send" in contact form ("say something" modal)
 
 ### Code
 
 The channels below were used to gain examples of how the page sections should look for business sites.
 
-- Testemonials section 
-  Look was inspired by [DarkCode's designs](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+Testemonials section 
+  - Look was inspired by [DarkCode's designs](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
-- Services page
-  Look was inspired by [Going-To Internet's](https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ ) way of styling the boxes. 
+Services page
+  - Look was inspired by [Going-To Internet's](https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ ) way of styling the boxes. 
 
 ### Content
  - The content on this site was written by the developer.
- - The README.md is based on the Code Institute sample of README.md file.
+ - The README.md is based on the Code Institute sample of README.md
 
 
 ### Acknowledgements
