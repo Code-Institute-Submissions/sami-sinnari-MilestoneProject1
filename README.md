@@ -2,7 +2,7 @@
 
 StartUpHub is a made up company that deals with website developing for new companies. We provide services that can be of great benefit when creating your own company. Our main focus is on creating very attractive websites for the young and modern population, as we mainly implement new ways and styles of web developing. Moreover, the other service we offer are consultations. We work closely with our clients to make sure we deliver exactely what they need. Our consultants will guide the clients by showcasing web desing elements and making them simple to understand in order to create a perfect working flow, and build a lasting relationship even after their website has been finished.
 
-![am i responsive](/images/am-i-responsive.jpg)
+![Am-I-Responsive](assets/images/am-i-responsive.jpg)
 
 The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/#)
 
