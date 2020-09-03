@@ -6,7 +6,8 @@ StartUpHub is a made up company that deals with website developing for new compa
 
 The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/#)
 
-A demo of the website can be found here: [www.Start-Up-Hub.com](https://sami-sinnari.github.io/MilestoneProject1/)
+A demo of the website can be found here [www.Start-Up-Hub.com](https://sami-sinnari.github.io/MilestoneProject1/)
+
 ---
 
 ## User Experience (UX)
@@ -209,19 +210,22 @@ git clone https://github.com/sami-sinnari/MilestoneProject1.git
 
 ### Pictures
 
-- Background photo Purchased on istockphoto.com
+- Home page :
+  Background photo // Purchased on istockphoto.com
+
+- About page :
+  Icon arrow pointing down made by Pixel perfect from www.flaticon.com
+
+- Testimonials section:
+   Testimonial picture 1 // Photo created by pch.vector at www.freepik.com
+   Testimonial picture 2 // Photo created by freepik at www.freepik.com
+   Testimonial picture 3 // Photo by Pixabay from Pexels
+
 
 Icons made by itim2101 www.flaticon.com // Photo in services ( content development)
 
-Icon arrow pointing down made by Pixel perfect from www.flaticon.com //  Arrow pointing down in About section
-
 Icons made by Freepik from www.flaticon.com // Number 1, 2 and 3 in About section.
 
-Photo by Mohammad Sadiq Padela from Pexels // Testimonials photo 1
-
-Photo by Andrea Piacquadio from Pexels // Testimonials photo 2
-
-Photo by Pixabay from Pexels // Testimonials photo 3
 
 ### Icons
 
