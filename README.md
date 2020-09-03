@@ -4,13 +4,12 @@ StartUpHub is a made up company that deals with website developing for new compa
 
 ![Am I Responsive](assets/images/Am-I-Responsive.png)
 
-
 The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/#)
 
------
+A demo of the website can be found here: [www.Start-Up-Hub.com](https://sami-sinnari.github.io/MilestoneProject1/)
+---
 
 ## User Experience (UX)
-
 
 ### Project Goals
 
@@ -50,7 +49,8 @@ as we have entered a new age of development. There is big competition on the mar
 I wanted to implement a minimalistic approach to my design in order to make navigation thru the website simple and efficient. I have used color contrasts of blue with red/orange tones to match the background image. I decided to implement hover effects to show the flexibility of the company and the ablity of customizing the site thru advanced web-development. 
 
 - Typography
-I decided to use 
+
+I decided to use two fonts from [Google Fonts](https://fonts.google.com/) throughout the website. Thrid font was used only in services section for a heading. I used 'Poppin' and 'Chilanka' as general font, and 'Rock and Salt' for services header. I decided to go with that font style as I believe they express the style I wanted to highlight for this type of website.
 
 ### Wireframes
 
@@ -69,11 +69,13 @@ Below are links to my wireframe pages.
 [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf) |
  [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-contact.pdf)
 
- - Contact Modal : I have changed the close button in modal to word : "nevermind" , which was added in right top corner as well.
+ Extra features added :
 
- - Services page : I have added a link at the bottom explaning that our service fees are provided on inquiry.
+ - Contact Modal : I have changed the close button in modal to word : "nevermind" , which was added in right top corner and bottom.
 
------
+ - Services page : I have added a paragraph at the bottom of the page explaning that our service fees are provided on inquiry.
+
+---
 
 ## Features
 
@@ -97,7 +99,7 @@ Below are links to my wireframe pages.
 - I would like to implement back-end technology and make this website a real Start-Up company for Web design.
 - I would like to add a company logo.
 
------
+---
 
 ## Technologies Used
 
@@ -115,16 +117,15 @@ Below are links to my wireframe pages.
 - [Google Fonts](https://fonts.google.com/)
   - Google fonts were used to add 'Poppis', 'Chilanka' and 'Rock and Salt' fonts.
 - [VSCode](https://code.visualstudio.com/)
-  - I have used VS Code to code the project alongside GitPod. 
+  - VS Code was used to code the project alongside GitPod. 
 - [Balsamiq](https://balsamiq.com/)
-  - I have used Balsamiq to create the wireframes for desktop, mobile and tablet view.
+  - Balsamiq was used to create the wireframes for desktop, mobile and tablet view.
 - [GitHub](https://github.com/)
   - GitHub was used to store the code that was pushed from VScode and to open a project in GitPod.
 - [Gitpod](https://www.gitpod.io/)
-  -Gitpod was used to code the project alongside VScode.
+  - Gitpod was used to code the project alongside VScode.
 
-  -----------
-
+  ---
 
 ## Testing
 For code testing I used W3C Markup Validator and W3C CSS Validator to check every page and code of the project.
@@ -143,24 +144,24 @@ The results are as follows:
 
 As a **user**, I want to understand the purpose of the web site im visiting on the first encounter.
 
-  - for a **user**, I've added a paragraph on the landing page explaining that we are building websites for Start-Up's.
+  - for a user, I've added a paragraph on the landing page explaining that we are building websites for Start-Up's.
 
 As a **user**, I want to be guided easly throught-out the website.
 
-  - for a **user**, I've added navigation bar to the top of every page on the website with links to each page an section.
+  - for a user, I've added navigation bar to the top of every page on the website with links to each page an section.
 
 As a **user**, I want to read about company's actions and the way they are dealing with Start-Ups.
 
-  - for a **user**, I've explained the way to go in "about" section. Nevertheless, the "find out more
+  - for a user, I've explained the way to go in "about" section. Nevertheless, the "find out more
    button was added to landing page in order for user to get more information about our service.
 
 As a **user**, I want to read some testemonials to be sure this is the right company for me.
 
-  - for a **user**, I've added testimonials section at the end of the home page with ratings we received. By doing so, I'd like to attract user's attention to our success.
+  - for a user, I've added testimonials section at the end of the home page with ratings we received. By doing so, I'd like to attract user's attention to our success.
 
 As a **user**, I want to be able to contact the company and book a metting or get more information about their services and fees.
 
-  - for a **user**, I've added a Contact(Modal) link on every page where they can fill in their details. Once filled, we will contact them and provide them with service fees, as mentioned on the bottom of the page in services. Moreover, I have included social links to the footer on each page. These link to Instagram, LinkedIn, Facebook and Mail. All of those link will open in a seperate page so the user can easily come back to the site.
+  - for a user, I've added a Contact(Modal) link on every page where they can fill in their details. Once filled, we will contact them and provide them with service fees, as mentioned on the bottom of the page in services. Moreover, I have included social links to the footer on each page. These link to Instagram, LinkedIn, Facebook and Mail. All of those link will open in a seperate page so the user can easily come back to the site.
 
 ### Further Testing
 
@@ -168,21 +169,47 @@ I have also tested this site across multiple devices and browsers :
 
 - Next to Google DevTool, I have used Firefox and Safari before submitting the code to GitHub.
 - The site was tested on few personal devices like : Samsung Galaxy Note10 Plus, Saumsung Galaxy S9 Plus, iPhone X, iPhone SE, iPad, etc.
-- The site has been reviewed by my Mentor Can and some students from my group jun-2020
-------
+- The site has been reviewed by my Mentor Can Sücüllü and some students from my group jun-2020
+
+ ---
 
 ## Deployment
 
+### GitHub Pages
 
+The project was deployed to GitHub Pages using the following steps:
+ 1. After pushing the project to GitHub, I opened the GitHub site and logged in.
+ 2. After logging in, I located the repository for the project: [github.com/sami-sinnari/MilestoneProject1](https://github.com/sami-sinnari/MilestoneProject1)
+ 3. At the top of the repository, I clicked on the "Settings" button.
+ 4. On the settings page, I scrolled down to the "GitHub Pages" section.
+ 5. Under "Source", I selected "Master Branch" from the dropdown menu.
+ 6. After the page refreshed itself, I scrolled back down to the "GitHub Pages" section to retrive the link to the published  site.
 
--------
+The site can be viewed here: https://sami-sinnari.github.io/MilestoneProject1/
+
+### Making a Local Clone
+
+To clone the repository to make a local copy on your computer, follow these steps:
+
+1. Open GitHub and locate the GitHub repository: [github.com/sami-sinnari/MilestoneProject1](https://github.com/sami-sinnari/MilestoneProject1)
+2. Under the repository name, click "Code" or "Clone" and copy the link to clone the repository using "HTTPS".
+3. After copying the link, open terminal on your computer. This step can also be done in the terminal on an IDE.
+4. Change the current working directory to the location where you want the cloned directory to be saved.
+5. Type git clone, and then paste the URL: [https://github.com/sami-sinnari/MilestoneProject1](https://github.com/sami-sinnari/MilestoneProject1) - see example below:
+
+```
+git clone https://github.com/sami-sinnari/MilestoneProject1.git
+```
+
+7. Press Enter to create a local clone.
+
+ ---
 
 ## Credits
 
-### Code
-
 ### Pictures
-Background photo // Purchased on istockphoto.com
+
+- Background photo Purchased on istockphoto.com
 
 Icons made by itim2101 www.flaticon.com // Photo in services ( content development)
 
@@ -196,10 +223,18 @@ Photo by Andrea Piacquadio from Pexels // Testimonials photo 2
 
 Photo by Pixabay from Pexels // Testimonials photo 3
 
+### Icons
+
+### Code
+
+### Content
+
+
+
 ### Acknowledgements
 
 
 
----------------
+---
 
 This site was built for educational purposes. If you find any content not mentioned in **Credits** that violates the copyrights, please contact me on samisinnari@gmail.com
