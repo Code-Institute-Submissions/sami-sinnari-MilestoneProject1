@@ -199,7 +199,7 @@ transform: scale(1.2);
   margin-bottom: 4em;
 }
 
-.my-jumbotron-header {
+.my-jumbotron h1{
   color: #fff;
   font-size: 2em; 
   font-weight: bold;
@@ -306,7 +306,7 @@ transform: scale(1.2);
 }
 
 /* ----------------- Testimonials section ----------------- */
-/* The Testemonials look was inspired by DarkCode's designs. Find more in README.md > Credits */
+/* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
 
 .testimonials{
   font-weight: 300;
@@ -365,7 +365,7 @@ transform: scale(1.2);
 
 /* ----------------- Services section ----------------- */
 
-/* The look was inspired by Going-To Internet's way of styling the boxes. Find more in README.md > Credits  */
+/* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
 .services{
   padding-top: 5rem;
   display: flex;
@@ -531,20 +531,16 @@ transform: scale(1.2);
     padding-top: 350px;
   }
 
-  .my-jumbotron-header{
+  .my-jumbotron h1{
     color: #fff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 1px 2px black;
   }
 
   .lead {
     font-size: 1.2em;
     font-weight: 500;
     color: #fff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  }
-
-  .banner .block-divider{
-    border: 0.8px solid #fff;
+    text-shadow: 2px 2px 2px black;
   }
 
   .banner-button{
@@ -597,6 +593,11 @@ transform: scale(1.2);
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .about-div {
+    height: 30em
+  }
+}
 
 @media screen and (max-width:640px) {
 
@@ -625,7 +626,7 @@ transform: scale(1.2);
      padding-bottom: 20px;
   }
 
-  .my-jumbotron-header{
+  .my-jumbotron h1{
     font-size: 1.5em;
   }
 
