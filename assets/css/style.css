@@ -14,14 +14,15 @@ body {
 
 .navbar {
   margin-bottom: 0;
-  position: absolute;
+  background: #6dc9ee5b
 }
 
 .navbar-light .navbar-brand {
   color: #fff;
-  font-size: 30px;
+  font-family: 'Rock Salt', sans-serif;
+  font-size: 2em;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .navbar-light .navbar-nav{
@@ -212,6 +213,7 @@ transform: scale(1.1);
 
 .title-section {
   text-align: center;
+  padding-top: 3em;
 }
 
 .title{
@@ -279,7 +281,7 @@ transform: scale(1.1);
   transition: .9s;
 }
 /* ----------------- Services section ----------------- */
-/* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
+/* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/watch?v=maeDgHcK_Os */
 
 .services{
   display: flex;
@@ -290,7 +292,7 @@ transform: scale(1.1);
 
 .services-heading{
   text-align: center;
-  padding-top: 5em;
+  padding-top: 3em;
 }
 
 .services-heading h1{
@@ -334,7 +336,7 @@ transform: scale(1.1);
   position: relative;
 }
 
-.services-box h1{
+.services-box h2{
   font-family: 'Chilanka', sans-serif;
   color: #2888e7;
   letter-spacing: 1px;
@@ -371,6 +373,7 @@ transform: scale(1.1);
 .fees{
   text-align: center;
   font-weight: 400;
+  padding-bottom: 2em;
 }
 
 .fees i{
@@ -391,14 +394,14 @@ transform: scale(1.1);
 }
 
 /* ----------------- Testimonials section ----------------- */
-/* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
+/* The Testemonials look was inspired by DarkCode's design. https://www.youtube.com/watch?v=zkyIVFoLxgY */
 
 .testimonials{
+  text-align: center;
   font-weight: 300;
   padding: 40px 0;
   background: #699ab625;
   color: #2888e7;
-  text-align: center;
 }
 
 .test-border{
@@ -418,7 +421,7 @@ transform: scale(1.1);
   flex: 33.33%;
   max-width: 33.33%;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 20px;
 }
 
 .testimonial{
@@ -446,6 +449,51 @@ transform: scale(1.1);
 .testimonial span{
   font-weight: 400;
   font-size: 0.9rem;
+}
+
+/* ----------------- Contact us ----------------- */
+.contact-us{
+  text-align: center;
+  padding: 5em;
+}
+
+.contact-box {
+  border: 2px ridge #6dc9ee;
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 30px;
+  padding: 50px 0;
+}
+
+.contact-box:hover{
+  box-shadow: 2px 2px 30px #6dc9ee;
+  transition: all ease-in-out 0.6s;
+}
+
+.contact-us-title h2{
+  font-size: 2.5em;
+  font-family: 'Chilanka', sans-serif;
+}
+
+.contact-us-title i{
+  color: #6dc9ee;
+}
+
+.contact-us-p{
+  font-size: 15px;
+  padding: 2em;
+}
+
+.btn-contact{
+  background: #6dc9ee;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 50px;
+}
+
+.btn-contact:hover{
+  color: #fff;
 }
 
 /* ----------------- Footer ----------------- */
@@ -549,7 +597,7 @@ transform: scale(1.1);
     flex-grow: 1;
   }
 
-  .services-box h1{
+  .services-box h2{
     font-size: 1.3em;
   }
   
@@ -573,6 +621,10 @@ transform: scale(1.1);
 
 @media screen and (max-width:640px) {
 
+  .navbar-light .navbar-brand {
+    font-size: 1.5em;
+  }
+
   .test-col{
     flex: 100%;
     max-width: 100%;
@@ -588,6 +640,23 @@ transform: scale(1.1);
 
   .fees i{
     display: none;
+  }
+  
+  .contact-us{
+    padding: 1em;
+  }
+  
+  .contact-box {
+    border: none;
+  }
+  
+  .contact-us-title h2{
+    font-size: 1.8em;
+  }
+  
+  .contact-us-p{
+    font-size: 1rem;
+    padding: 2em;
   }
 }
 
@@ -614,11 +683,21 @@ transform: scale(1.1);
     height: 600px;
   }
 
-  .services-box h1{
+  .services-box h2{
     font-size: 1.2em;
+    font-weight: 900;
   }
 
   .services-box p{
-    font-size: 1em;
+    font-size: 0.9em;
+  }
+
+  .contact-us-title h2{
+    font-size: 1.5em;
+  }
+
+  .contact-us-p{
+    font-size: 0.8rem;
+    padding: 1em;
   }
  }
