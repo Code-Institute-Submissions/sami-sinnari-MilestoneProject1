@@ -56,33 +56,6 @@ body {
   color: #fff;
 }
 
-/* ---- Navbar services section ---- */
-
-.navbar-brand-services{
-  color: #000000;
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.navbar-brand-services:hover{
-  color: #2888e7;
-  text-decoration: none;
-}
-
-.nav-link-s{
-  font-weight: bold; 
-  padding: .5rem 0.5rem;
-  letter-spacing: 1px;
-  display: block;
-  color: #000000;
-}
-
-.nav-link-s:hover{
-  color: #2888e7;
-  text-decoration: none;
-}
-
 /* ----------------- say something (contact form) section ----------------- */
 .modal-body h2{
   text-align-last: center; 
@@ -176,7 +149,7 @@ body {
 background: #2888e7;
 border: #2888e7;
 transition: .5s ease-in;
-transform: scale(1.2);
+transform: scale(1.1);
 }
 
 /* ----------------- Banner section ----------------- */
@@ -193,19 +166,20 @@ transform: scale(1.2);
   height: 100vh; 
 }
 
-.my-jumbotron {
+.banner-section {
   background-color: transparent;
   color: #fff;
   margin-bottom: 4em;
 }
 
-.my-jumbotron h1{
+.banner-section h1{
   color: #fff;
   font-size: 2em; 
   font-weight: bold;
 }
 
-.lead {
+.banner-p {
+  font-size: 1.3em;
   margin: 10px 0;
   color: #fff;
 }
@@ -304,70 +278,10 @@ transform: scale(1.2);
   box-shadow: 0 20px 20px 2px rgba(18, 134, 243,0.5);
   transition: .9s;
 }
-
-/* ----------------- Testimonials section ----------------- */
-/* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
-
-.testimonials{
-  font-weight: 300;
-  padding: 40px 0;
-  background: #699ab625;
-  color: #2888e7;
-  text-align: center;
-}
-
-.test-border{
-  width: 160px;
-  height: 5px;
-  background: #2888e7;
-  margin: 26px auto;
-}
-
-.test-row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.test-col{
-  flex: 33.33%;
-  max-width: 33.33%;
-  box-sizing: border-box;
-  padding: 15px;
-}
-
-.testimonial{
-  background: #fff;
-  padding: 30px;
-}
-
-.testimonial img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.testimonial h1{
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  margin: 20px 0;
-}
-
-.testimonial i{
-  color: #e6e943;
-  margin-bottom: 20px;
-}
-
-.testimonial span{
-  font-weight: 400;
-  font-size: 0.9rem;
-}
-
 /* ----------------- Services section ----------------- */
-
 /* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/channel/UCfNzft_txAamoQvwh1j2HEQ */
+
 .services{
-  padding-top: 5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -476,6 +390,64 @@ transform: scale(1.2);
   }
 }
 
+/* ----------------- Testimonials section ----------------- */
+/* The Testemonials look was inspired by DarkCode's designs. https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw */
+
+.testimonials{
+  font-weight: 300;
+  padding: 40px 0;
+  background: #699ab625;
+  color: #2888e7;
+  text-align: center;
+}
+
+.test-border{
+  width: 160px;
+  height: 5px;
+  background: #2888e7;
+  margin: 26px auto;
+}
+
+.test-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.test-col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.testimonial i{
+  color: #e6e943;
+  margin-bottom: 20px;
+}
+
+.testimonial span{
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
 /* ----------------- Footer ----------------- */
 
 .social-links {
@@ -531,14 +503,14 @@ transform: scale(1.2);
     padding-top: 350px;
   }
 
-  .my-jumbotron h1{
+  .banner-section h1{
     color: #fff;
     text-shadow: 2px 1px 2px black;
   }
 
-  .lead {
-    font-size: 1.2em;
-    font-weight: 500;
+  .banner-p {
+    font-size: 1.3em;
+    font-weight: 400;
     color: #fff;
     text-shadow: 2px 2px 2px black;
   }
@@ -622,12 +594,16 @@ transform: scale(1.2);
 @media screen and (max-width:320px){
 
   .banner{
-     padding-top: 370px;
+     padding-top: 350px;
      padding-bottom: 20px;
   }
 
-  .my-jumbotron h1{
+  .banner-section h1{
     font-size: 1.5em;
+  }
+
+  .banner-p{
+    font-size: 1.2em;
   }
 
   .services-heading h1{
