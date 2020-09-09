@@ -64,7 +64,6 @@ body {
 }
 
 .modal-header {
-  display: flex;
   text-align: right;
   border-bottom: none
 }
@@ -156,7 +155,7 @@ transform: scale(1.1);
 /* ----------------- Banner section ----------------- */
 
 .banner {
-  background: url("../images/background.jpg") no-repeat center center fixed;
+  background: url("../images/background.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -281,10 +280,9 @@ transform: scale(1.1);
   transition: .9s;
 }
 /* ----------------- Services section ----------------- */
-/* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/watch?v=maeDgHcK_Os */
+/* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/watch?v=maeDgHcK_Os&t=8s */
 
 .services{
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
@@ -506,10 +504,10 @@ transform: scale(1.1);
 .social-links i {
   color: rgb(39, 135, 231);
   background-color: #fcfcfc;
-  font-size: 2.3rem;
   border-radius: 65%;
+  font-size: 2.3rem;
   padding: 10px;
-  margin: 0 10px;
+  margin: 0 10px 10px;
 }
 
 .social-links i:hover {
@@ -540,7 +538,7 @@ transform: scale(1.1);
   }
 
   .banner{
-    background: url(../images/background-mobile.jpg) no-repeat center center fixed;
+    background: url(../images/background-mobile.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -565,6 +563,10 @@ transform: scale(1.1);
 
   .banner-button{
     display: block;
+  }
+
+  .about-div {
+    height: 26em
   }
 
   .about-div p{
@@ -613,16 +615,14 @@ transform: scale(1.1);
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-  .about-div {
-    height: 30em
-  }
-}
-
 @media screen and (max-width:640px) {
 
   .navbar-light .navbar-brand {
     font-size: 1.5em;
+  }
+
+  .about-div {
+    height: 20em
   }
 
   .test-col{
@@ -635,7 +635,7 @@ transform: scale(1.1);
   }
 
   .services-box{
-    padding-top: 5em;
+    padding-top: 1em;
   }
 
   .fees i{
@@ -660,7 +660,7 @@ transform: scale(1.1);
   }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:400px){
 
   .banner{
      padding-top: 350px;
@@ -675,12 +675,16 @@ transform: scale(1.1);
     font-size: 1.2em;
   }
 
+  .about-div {
+    height: 23em
+  }
+
   .services-heading h1{
     padding-top: 50px;
   }
 
   .services-box{
-    height: 600px;
+    height: 520px;
   }
 
   .services-box h2{
