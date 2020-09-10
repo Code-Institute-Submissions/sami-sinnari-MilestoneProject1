@@ -112,7 +112,9 @@ Below are the links to the wireframe pages.
 
  Extra features added :
 
- - Contact Modal : Changes were made to the Modal's "close (X)" button with the word "nevermind" and it was added in the right top and bottom corner.
+ - HTML : The site navigation has been changed so that after clicking a navigation link it doesn't open a different page, instead it directs you to a section on that same page.
+
+ - Contact Modal : The section under "say something" has been added afterwards, with a button "LET'S TALK". Moreover, changes were made to the Modal's "close (X)" button with the word "nevermind" and it was added in the top right corner and at the bottom. 
 
  - Services page : A paragraph was added at the bottom of the page explaning that our service fees are provided on inquiry.
 
