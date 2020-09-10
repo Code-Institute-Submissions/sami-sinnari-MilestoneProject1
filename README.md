@@ -21,9 +21,9 @@ A demo of the website can be found here [sami-sinnari.github.io/MilestoneProject
 
 - [**Features**](#features)
 
-  - [Existing Features](#existing-features)
-  - [Features added then removed](#features-added-then-removed)
-  - [Features Left to Implement](#features-left-to-implement)
+  - [Existing Features](#features)
+  - [Features added then removed](#features)
+  - [Features Left to Implement](#features)
 
 - [**Technologies**](#technologies-used)
 
