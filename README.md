@@ -1,12 +1,12 @@
 # StartUpHub
 
-StartUpHub is a made up company that deals with website developing for new companies. We provide services that can be of great benefit when creating your own company. Our main focus is on creating very attractive websites for the young and modern population, as we mainly implement new ways and styles of web developing. Moreover, the other service we offer are consultations. We work closely with our clients to make sure we deliver exactely what they need. Our consultants will guide the clients by showcasing web desing elements and making them simple to understand in order to create a perfect working flow, and build a lasting relationship even after their website has been finished.
+StartUpHub is a made up company that deals with website development for new companies. We provide services that can be of great benefit to start-up companies as a way to introduce them to the online world. Our main focus is on creating very attractive websites for the young and modern population, as we mainly implement new ways and styles of web developing. 
 
 ![Am-I-Responsive](assets/images/am-i-responsive.jpg)
 
 The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/#)
 
-A demo of the website can be found here [www.Start-Up-Hub.com](https://sami-sinnari.github.io/MilestoneProject1/)
+A demo of the website can be found here [sami-sinnari.github.io/MilestoneProject1/](https://sami-sinnari.github.io/MilestoneProject1/)
 
 ---
 
@@ -14,20 +14,21 @@ A demo of the website can be found here [www.Start-Up-Hub.com](https://sami-sinn
 
 - [**User Experience (UX)**](<#user-experience-(ux)>)
 
-  - Project Goals
-  - User Goals
-  - Design
-  - Wireframes
+  - [Project Goals](#project-goals)
+  - [User Goals](#user-goals)
+  - [Design](#design)
+  - [Wireframes](#wireframes)
 
 - [**Features**](#features)
 
-  - The features implemented on this project
-  - The features I would like to add in future
+  - [Existing Features](#existing-features)
+  - [Features added then removed](#features-added-then-removed)
+  - [Features Left to Implement](#features-left-to-implement)
 
 - [**Technologies**](#technologies-used)
 
-  - Languages Used
-  - Frameworks, Libraries and Programs Used
+  - [Languages Used](#technologies-used)
+  - [Frameworks, Libraries and Programs Used](#technologies-used)
 
 - [**Testing**](#testing)
 
@@ -41,17 +42,19 @@ A demo of the website can be found here [www.Start-Up-Hub.com](https://sami-sinn
 
 ### Project Goals
 
-The main purpose of this project is to create a website that will support a newly created company. We would build the website for them and they would be provided with various designs. The website will show that we, as a company, have experience in creating new styles of websites that are attractive at first glance. I wanted to implement new way of website content wording,
-as we have entered a new age of development. There is big competition on the market, which only brings needs to stand out.
+The main purpose of this project is to create a website that will support a newly created company. We as a company would build the website for them and they would be given various design options. From a personal perspective, I wanted to implement a new way of sentence structures by implementing casual speach and no capital letters in the sentences. We have entered a new age of development, which means that we need to focus on standing out. 
+
+We would work closely with our clients to make sure we deliver exactely what they need. Our consultants will guide the clients by showcasing web desing elements and making them simple to understand in order to create a perfect working flow, and build a lasting relationship even after their website has been finished.
+
 
 
 ### User Goals 
 
-- As a **user**, I want to understand the purpose of the web site im visiting on first encounter.
+- As a **user**, I want to understand the purpose of the web site i'm visiting at first encounter.
 
 - As a **user**, I want to be guided easly throught-out the website.
 
-- As a **user**, I want to read about company's actions and the way they are dealing with Start-Ups.
+- As a **user**, I want to read about the company's actions and the way they are dealing with Start-Ups.
 
 - As a **user**, I want to read some testemonials to be sure this is the right company for me.
 
@@ -74,27 +77,27 @@ as we have entered a new age of development. There is big competition on the mar
 
 ### Design
 
-I wanted to implement a minimalistic approach to my design in order to make navigation thru the website simple and efficient. I have used color contrasts of white and blue with red/orange tones to match the background image. I decided to implement hover effects to show the flexibility of the company and the ablity of customizing the site thru advanced web-development. 
+I wanted to implement a minimalistic approach to my design in order to make navigation through the website simple and efficient. I have used a color range of white and blue with contrast tones of orange/red to match the background image and give some dynamic to the page. I decided to implement hover effects to show the flexibility of the company and the ablity of customizing the site through advanced web-development. 
 
 The site was created by Destkop first design because of two reasons :
- 1. I decided to implement Desktop first design as I realized this will give me more coding knowledge, as I had to write more codes then I would with Mobile First design.
- 2. The company is more focused on Desktop user's as we are buidling websites for other companies and usually the firms like ours are searched thru desktop PC. Nevertheless, I have adjusted desktop, tablet and mobile view therefore the site is fully responsive on any device.
+ 1. I decided to implement Desktop first design as I realized this would give me more coding knowledge, since I had to write more codes then I would have with Mobile First design.
+ 2. The company was made to focus more on Desktop user's as we are buidling websites for other companies and usually firms like ours are searched through desktop PC. Nevertheless, I have adjusted desktop, tablet and mobile view point therefore the site is fully responsive on any device.
 
 #### Colors
 
-Below are the combination of colors I decided to use on my website. I only changed the shades when implementing them on hover effects. I decided to use them as they are good match with the background image I used, which creates a nice dynamic look from users viewpoint.
+Below are the combination of colors I decided to use on my website. I only changed the shades when implementing them on hover effects. I decided to use them as they are a good match with the background image used, which creates a nice dynamic look from the users viewpoint.
 
 ![Color Scheme Generated by coolors.co](assets/images/palette.jpg)
 
 #### Typography
 
-I decided to use two fonts from [Google Fonts](https://fonts.google.com/) throughout the website. Thrid font was used only in services section for a heading. I used 'Poppin' and 'Chilanka' as general font, and 'Rock and Salt' for services header. I decided to go with that font style as I believe they express the style I wanted to highlight for this type of website.
+I decided to use two fonts from [Google Fonts](https://fonts.google.com/) throughout the website. A thrid font was used only in the services section for a heading. I used 'Poppin' and 'Chilanka' as general font styles, and 'Rock and Salt' for logo and services header. I decided to go for this combination of fonts as they were in my opinion the best suitable ones in order to better showcase the design concept I had in mind.
 
 ### Wireframes
 
-Wireframes for my website were created using [Balsamiq](https://balsamiq.com/). 
-I created wireframes for mobile, tablet and desktop view. 
-Below are links to my wireframe pages.
+Wireframes for the website were created using [Balsamiq](https://balsamiq.com/). 
+I also created wireframes for mobile, tablet and desktop view. 
+Below are the links to the wireframe pages.
 
 #### Desktop view
 [Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-about.pdf) |
@@ -109,39 +112,40 @@ Below are links to my wireframe pages.
 
  Extra features added :
 
- - Contact Modal : I have changed the close button in modal to word : "nevermind" , which was added in right top corner and bottom.
+ - Contact Modal : Changes were made to the Modal's "close (X)" button with the word "nevermind" and it was added in the right top and bottom corner.
 
- - Services page : I have added a paragraph at the bottom of the page explaning that our service fees are provided on inquiry.
+ - Services page : A paragraph was added at the bottom of the page explaning that our service fees are provided on inquiry.
 
-#### [Contents](#contents)
+#### [Back to Contents](#contents)
 
 ---
 
 ## Features
 
-### The features implemented on this project : 
+### Existing Features : 
 
-- Navigation : I included navigation bar on every page so the user can navigate easly and it links are styled simple and modern, with hover effects. The navigation bar was created using [Bootstrap](https://getbootstrap.com/) .
+- Navigation : I included navigation bar on every page so the user can navigate easily and the links are styled simple and modern, with hover effects. The navigation bar was created using [Bootstrap](https://getbootstrap.com/) .
 
-- Background : I have added background image on all sizes with maching banner text and background image. The aim was to prove that visual user experience matters. Moreover, the font style of the website is lowercase because I am trying to show that something out of the ordinary can be attractive. By doing that, I have changed the usual word "Close" to "nevermind" as well.
 
-- Contact form : I decided to change the typing style from "Contact us" to "say something" because I am trying to attract user's attention to details, thus leave a good impression of company's web design. A simple [Bootstrap](https://getbootstrap.com/) modal was used in order to create a contact form pop-up. I have customized the buttons on modal and included hover effects which are not responsive on smaller devices, but this will be implemented in the future through media(hover) effects.
+- Background : I have added background image on all sizes with matching banner text and a background image. The aim was to prove that the visual user experience matters. Moreover, the font style of the website is lowercase because I am trying to show how something out of the ordinary can be attractive. To further highlight this I selected specific wording phrases such as the phrase "nevermind" insted of the traditional "close" button.
 
-- Testimonial section : The word "Testimonials" was changed with "our clients love our work" to focus the user on positivity before reading and seeing our ratings and comments.
+- Contact form : In coherence with the design, I changed traditional phrase "Contact us" with attention-grabbing phrase "say something". A simple [Bootstrap](https://getbootstrap.com/) modal was used in order to create a contact form pop-up. I have customized the buttons on the modal and included hover effects which are not yet responsive on smaller devices, but this is planned out to be inplemented in the future through media(hover) effects.
 
-- Social links : Links to social media were included as a footer on every page. I have added hover effects to footer and matched the colors with point of view.
+- Testimonial section : The word "Testimonials" was changed with "our clients love our work" to orient the users focus on positivity before reading and seeing our ratings and comments.
 
-### The features added then removed :
- - I have added different web design on my page, but decided to removed it as the change was too big. I managed to change the background image, text and color of the website when switching to smaller devices. For changing the header text, I used display none to hide the previous text and then pseudo elements to make a new content. The old code of the website can be found under "Commits", which led to a more number of commites commited then needed.
+- Social links : Links to social media were included as a footer on every page. Hover effects were added to the footer and I matched the transitional colors with the overall background theme.
 
-### The features I would like to add in future :
+### Features added then removed :
+ - I had added a different picture to the mobile view, but decided to remove it because the change seemed to drastic and didn't align with the coherency of the overall design. I managed to adapt the initial background image, text and color when transitioning to smaller devices. For changing the header text, I used "display:none" to hide the previous text and then pseudo elements to make a new content. The old code of the website can be found under "Commits", which led to a bigger number of commites commited then initially intended.
+
+### Features Left to Implement :
 
 - I would like to add :hover effects on tap, as :hover effect works only on destkop view. The :hover can be added in the future through @media(hover) element
-- I would like to add few more services on the website thus expanding the business.
+- I would like to add a few more services on the website thus expanding the business.
 - I would like to implement back-end technology and make this website a real Start-Up company for Web design.
-- I would like to add a company logo.
+- I would like to add a real company logo.
 
-#### [Contents](#contents)
+#### [Back to Contents](#contents)
 
 ---
 
@@ -155,7 +159,7 @@ Below are links to my wireframe pages.
 ### Frameworks, Libraries and Programs:
 
 - [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-  - I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with understanding of Bootstrap and knowledge it has to offer. It was used aswell to give basic layout to the page and to also add other features including nav bar and modal.
+  - I implemented boostrap libarities in this projects as I felt it would be great learning oppurtinuty to use it. This provided me with better understanding of Bootstrap and the knowledge it has to offer. As well it was used to give basic layout to the page and to also add some features including nav bar and modal.
 - [Font Awesome](https://fontawesome.com/)
   - Font awesome was used to add icons to social media links.
 - [Google Fonts](https://fonts.google.com/)
@@ -169,7 +173,7 @@ Below are links to my wireframe pages.
 - [Gitpod](https://www.gitpod.io/)
   - Gitpod was used to code the project alongside VSCode.
 
-#### [Contents](#contents)
+#### [Back to Contents](#contents)
 
 ---
 
@@ -184,30 +188,30 @@ The results are as follows:
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - style.css - No error found.
-    - The validator displayed 22 warnings. Six warnings were for -webkit/-moz/-o-background size's, and other sixteen warnings were in regards to background color being the same. The CSS validator didn't recognize the hover effects and the reason for the same background color.
+    - The validator displayed 22 warnings. Six warnings were for -webkit/-moz/-o-background size's, and other sixteen warnings were in regards to background color being the same. The CSS validator didn't recognize the hover effects and the point of the same background color.
 
 ### Testing User Stories from UX Section
 
-As a **user**, I want to understand the purpose of the web site im visiting on the first encounter.
+As a **user**, I want to understand the purpose of the web site i'm visiting on the first encounter.
 
   - for a user, I've added a paragraph on the landing page explaining that we are building websites for Start-Up's.
 
-As a **user**, I want to be guided easly throught-out the website.
+As a **user**, I want to be guided easily throught-out the website.
 
-  - for a user, I've added navigation bar to the top of every page on the website with links to each page an section.
+  - for a user, I've added a navigation bar to the top of every page on the website with links to each page and section.
 
-As a **user**, I want to read about company's actions and the way they are dealing with Start-Ups.
+As a **user**, I want to read about the company's actions and the way they deal with Start-Ups.
 
-  - for a user, I've explained the way to go in "about" section. Nevertheless, the "find out more
-   button was added to landing page in order for user to get more information about our service.
+  - for a user, I've explained how to go to the "about" section. Nevertheless, the "find out more"
+   button was added to the landing page in order for the user to get more information about our service.
 
 As a **user**, I want to read some testemonials to be sure this is the right company for me.
 
-  - for a user, I've added testimonials section at the end of the home page with ratings we received. By doing so, I'd like to attract user's attention to our success.
+  - for a user, I've added a testimonials section at the end of the home page with our received ratings. By doing so, it attracts user's attention to our success.
 
 As a **user**, I want to be able to contact the company and book a metting or get more information about their services and fees.
 
-  - for a user, I've added a Contact(Modal) link on every page where they can fill in their details. Once filled, we will contact them and provide them with service fees, as mentioned on the bottom of the page in services. Moreover, I have included social links to the footer on each page. These link to Instagram, LinkedIn, Facebook and Mail. All of those link will open in a seperate page so the user can easily come back to the site.
+  - for a user, I've added a Contact(Modal) link on every page where they can fill in their details. Once filled, we will contact them and provide them with relative information about their requests or questions about service fees. Moreover, I have included social links to the footer on each page. These link to Instagram, LinkedIn, Facebook and Mail. All of those links will open in a seperate page so the user can easily come back to the site.
 
 ### Further Testing
 
@@ -217,7 +221,7 @@ I have also tested this site across multiple devices and browsers :
 - The site was tested on few personal devices like : Samsung Galaxy Note10 Plus, Saumsung Galaxy S9 Plus, iPhone X, iPhone SE, iPad, etc.
 - The site has been reviewed by my Mentor Can Sücüllü and some students from my group jun-2020
 
-#### [Contents](#contents)
+#### [Back to Contents](#contents)
 
  ---
 
@@ -251,7 +255,7 @@ git clone https://github.com/sami-sinnari/MilestoneProject1.git
 
 7. Press Enter to create a local clone.
 
-#### [Contents](#contents)
+#### [Back to Contents](#contents)
 
 ---
 
@@ -294,18 +298,18 @@ Services page
 
 ### Content
  - The content on this site was written by the developer.
- - The README.md is based on the Code Institute sample of README.md
+ - The README is based on the Code Institute sample of README file
 
 
 ### Acknowledgements
 
 I would like to thank the people who have helped me through this project:
 
- - My mentor Can Sücüllü for his time, patience, and support during the Project and for all feedback and advice on this project.
- - My fellow students at Code Instutite and wonderful Slack community for all the support and feedback and Neringa Bickmore for sharing examples of her README file - alongside Code Institue's README.md file.
- - And lastly, I'd like to thank Code Institute's Staff for incredible content which provided me with sufficient knowledge to code this site myself.
+ - My mentor Can Sücüllü for his time, patience, and support during the Project and for all the feedback and advice on this project.
+ - My fellow students at Code Instutite and the wonderful Slack community for all the support and feedback and Neringa Bickmore for sharing examples of her README file - alongside Code Institue's README.md file.
+ - Lastly, I'd like to thank Code Institute's Staff for their incredible content which provided me with sufficient knowledge to code this site myself.
 
-#### [Contents](#contents)
+#### [Back to Contents](#contents)
 
 ---
 
