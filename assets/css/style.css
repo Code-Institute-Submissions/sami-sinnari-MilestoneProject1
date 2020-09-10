@@ -155,7 +155,7 @@ transform: scale(1.1);
 /* ----------------- Banner section ----------------- */
 
 .banner {
-  background: url("../images/background.jpg") no-repeat center fixed;
+  background: url("../images/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -279,7 +279,9 @@ transform: scale(1.1);
   box-shadow: 0 20px 20px 2px rgba(18, 134, 243,0.5);
   transition: .9s;
 }
+
 /* ----------------- Services section ----------------- */
+
 /* The look was inspired by Going-To Internet's way of styling the boxes. https://www.youtube.com/watch?v=maeDgHcK_Os&t=8s */
 
 .services{
@@ -392,6 +394,7 @@ transform: scale(1.1);
 }
 
 /* ----------------- Testimonials section ----------------- */
+
 /* The Testemonials look was inspired by DarkCode's design. https://www.youtube.com/watch?v=zkyIVFoLxgY */
 
 .testimonials{
@@ -517,6 +520,7 @@ transform: scale(1.1);
 }
 
 /* ----------------- Media Queries ----------------- */
+
 
 @media screen and (max-width:1024px){
 
