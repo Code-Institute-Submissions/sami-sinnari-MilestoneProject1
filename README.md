@@ -100,15 +100,15 @@ I also created wireframes for mobile, tablet and desktop view.
 Below are the links to the wireframe pages.
 
 #### Desktop view
-[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-about.pdf) |
- [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Desktop-contact.pdf)
+[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-desktop-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-desktop-about.pdf) |
+ [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-desktop-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-desktop-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-desktop-contact.pdf)
 #### Tablet view
-[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-home.pdf) |
- [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-about.pdf) | 
-[Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Tablet-contact.pdf)       
+[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-tablet-home.pdf) |
+ [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-tablet-about.pdf) | 
+[Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-tablet-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-tablet-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-tablet-contact.pdf)       
 #### Mobile view
-[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-about.pdf) |
- [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/StartUpHub-Phone-contact.pdf)
+[Home page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-phone-home.pdf) | [About page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-phone-about.pdf) |
+ [Testimonials page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-phone-testimonials.pdf) | [Services page](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-phone-services.pdf) | [Contact Modal](https://github.com/sami-sinnari/MilestoneProject1/blob/master/assets/wireframes/startuphub-phone-contact.pdf)
 
  Extra features added :
 
